@@ -23,7 +23,7 @@ class News extends Component {
                         { /* <div className="intro-lead-in">Welcome To NanoBioLab!</div> */}
                         <div className="intro-heading text-uppercase" > 生醫奈米與微系統晶片實驗室 </div>
                         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-                            onClick={() => animateScrollTo(document.querySelector('#news'))}>Tell Me More</a>
+                            onClick={() => animateScrollTo(document.querySelector('#news'))}>Read More</a>
                     </div>
                 </div>
             </header>
@@ -44,7 +44,7 @@ class News extends Component {
                                     自由時報： https: //news.ltn.com.tw/news/life/breakingnews/3014002
 
                                     經濟日報： https: //money.udn.com/money/story/12524/4236122</p>
-                                    <p class="card-text" > < small class="text-muted" > 2019.12 .19 </small></p >
+                                    <p class="card-text" > < small class="text-muted" > 2019.12.19 </small></p >
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ class News extends Component {
                                 <div class="card-body" >
                                     <h5 class="card-title" > 本團隊榮獲科技部2019未來科技突破獎 </h5>
                                     <p class="card-text" > This is a wider card with supporting text below as a natural lead - in to additional content.This content is a little bit longer. </p>
-                                    <p class="card-text" > < small class="text-muted" > 2019.12 .05~08 </small></p >
+                                    <p class="card-text" > < small class="text-muted" > 2019.12.05~08 </small></p >
                                 </div>
                             </div>
                         </div>
