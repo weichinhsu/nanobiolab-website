@@ -61,7 +61,7 @@ const RouterRoot = withRouter(_.flow()(Root));
 
 export default (props) => {
     return (
-        <ConnectedRouter history={props.history} >
+        <ConnectedRouter history={props.history}>
             <RouterRoot {...props} >
                 <Switch >
                     <HomeLayout route={route} >
