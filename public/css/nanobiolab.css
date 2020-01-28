@@ -1,0 +1,226 @@
+.bg-primary {
+    background-color: #256390 !important;
+}
+
+.text-primary {
+    color: #256390 !important;
+}
+
+a {
+    color: #256390;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #256390;
+}
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none
+}
+
+@media (min-width:768px) {
+    section.resume-section {
+        min-height: 100vh;
+        max-width: 75rem -webkit-animation: fadein 2s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 2s;
+        /* Internet Explorer */
+        -o-animation: fadein 2s;
+        /* Opera < 12.1 */
+        animation: fadein 2s;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem
+    }
+}
+
+@media (min-width:992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+        max-width: 75rem -webkit-animation: fadein 2s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 2s;
+        /* Internet Explorer */
+        -o-animation: fadein 2s;
+        /* Opera < 12.1 */
+        animation: fadein 2s;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("../img/header-bg.jpg");
+    background: linear-gradient(to bottom, rgba(56, 56, 56, 0.5) 0, rgba(56, 56, 56, .5) 100%), url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    max-width: 75rem -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+    header.masthead .intro-text {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        max-width: 75rem -webkit-animation: fadein 2s;
+        /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s;
+        /* Firefox < 16 */
+        -ms-animation: fadein 2s;
+        /* Internet Explorer */
+        -o-animation: fadein 2s;
+        /* Opera < 12.1 */
+        animation: fadein 2s;
+    }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 35px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 25px;
+        font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-text .intro-heading {
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+}
+
+.img-news {
+    opacity: 0.8;
+}
+
+.sidebar-p {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.highlight-section {
+    padding: 3rem;
+    margin-bottom: 1rem;
+    background-color: #dcd7cf;
+}
+
+hr.divider {
+    border-width: .2rem;
+    border-color: #256390;
+}
+
+hr.objective_divider {
+  max-width: 3.25rem;
+  border-width: .2rem;
+  border-color: #256390;
+}
