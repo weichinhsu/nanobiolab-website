@@ -224,3 +224,31 @@ hr.objective_divider {
   border-width: .2rem;
   border-color: #256390;
 }
+
+.sub-header {
+    margin: 2rem 0;
+}
+.sub-title {
+    /* margin-right: 1rem; */
+    margin: 1rem;
+}
+.member-item{
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+.member-item:hover {
+    background-color: rgb(255, 248, 232);
+    border-radius: 1rem;
+}
+.item-active {
+    background-color: #256390;
+    color:white;
+    border-radius: .3rem;
+}
+.item-inactive {
+    background-color: rgb(255, 255, 255);
+    color:rgb(99, 99, 99)
+}
+.btn-link {
+    color: rgb(20, 86, 173);
+}
