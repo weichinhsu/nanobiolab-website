@@ -122,6 +122,16 @@ export default [{
         "honor": ["科技部 FITI 創新創業激勵計畫首獎 - 創業傑出獎"],
         "patent": [],
         "cv": ""
+    },{
+        "name": "張柏翔",
+        "title": "動機系電控組",
+        "period": "第一屆",
+        "research": "An Optofluidic Lab-on-a-Chip Using Bionic Technologies and Its Application in Biomedical Microinstrumentation",
+        "plan": ["96年度國科會一般型研究計畫", "97年度長庚-清華研究合作計畫", " 96年度NDL研究計畫"],
+        "publication": ["Biosensors and Bioelectronics (2010): 1 篇 (Impact Factor: 7.78)", "Biomedical Microdevices (2012): 1篇 (Impact Factor: 2.227)"],
+        "honor": ["2篇 MicroTAS 2009 ", "1篇 Transducers 2011", "獲得國科會、動機系國際會議獎助金共5萬元"],
+        "patent": ["美國1件","台灣1件"],
+        "cv": ""
     }]
 }, {
     "subject": "大學專題生",

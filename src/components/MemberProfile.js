@@ -10,7 +10,7 @@ class MemberProfile extends Component {
             <h4>{data.name}</h4>
             <h6>{data.title}</h6>
             {data.research ? <p>[研究]{data.research}</p> : null}
-            {data.cv ? <a href={data.cv}>Reference</a> : null}
+            {data.cv ? <a href={data.cv} target="_blank">Reference</a> : null}
             {data.plan.map(row => {return <div>[計畫]{row}</div>})}
             {data.honor.map(row => {return <div>[榮譽]{row}</div>})}
             {data.patent.map(row => {return <div>[專利]{row}</div>})}

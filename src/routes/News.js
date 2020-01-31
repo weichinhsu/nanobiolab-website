@@ -39,11 +39,9 @@ class News extends Component {
                             <div class="col-md-8" >
                                 <div class="card-body" >
                                     <h5 class="card-title" > 科技部醫材創新計劃舉辦記者會 </h5>
-                                    <p class="card-text" > 聯合新聞網： https: //udn.com/news/story/7266/4236122
-
-                                    自由時報： https: //news.ltn.com.tw/news/life/breakingnews/3014002
-
-                                    經濟日報： https: //money.udn.com/money/story/12524/4236122</p>
+                                    <a href="https://udn.com/news/story/7266/4236122" target="_blank">聯合新聞網</a><br/>
+                                    <a href="https://news.ltn.com.tw/news/life/breakingnews/3014002" target="_blank">自由時報</a><br/>
+                                    <a href="https://money.udn.com/money/story/12524/4236122" target="_blank">經濟日報</a>
                                     <p class="card-text" > < small class="text-muted" > 2019.12.19 </small></p >
                                 </div>
                             </div>
