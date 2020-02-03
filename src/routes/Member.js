@@ -8,7 +8,6 @@ class Member extends Component {
     state = {
         type: '博士後',
         member: data[0].group,
-        isActive: '博士後'
     }
     memberType = (type) => {
         let member = []
@@ -20,7 +19,7 @@ class Member extends Component {
     }
 
     render() {
-        const { type, isActive } = this.state
+        const { type } = this.state
         return (
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
                 <div className="w-100">

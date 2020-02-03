@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
-import nthu from '../assets/images/nthu.png'
-import { Link } from 'dva/router';
 
 class SubHeader extends Component {
-    state = {
-        key: null,
-    }
     renderHeader = (subject) => {
-        console.log(this.props.isActive , subject)
-        return <li className={this.props.isActive == subject ? 'item-active' : 'item-inactive'}
-            onClick={() => this.props.onSubHeaderClick(subject)}>
+        console.log(subject)
+        return <li className={this.props.isActive == subject ? 'item-active' : 'item-inactive'} 
+        onClick={() => this.props.onSubHeaderClick(subject)}>
             <a className="sub-title">{subject}</a>
         </li>
     }
     render() {
         const { data, title } = this.props;
-
         return (
             <div>
                 <h3>{title}</h3>
