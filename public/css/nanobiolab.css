@@ -261,4 +261,11 @@ hr.objective_divider {
 .navbar-toggler {
     color: black
 }
-
+.media {
+    display: inline;    
+}
+@media (min-width: 768px) {
+    .media {
+        display: flex;    
+    }
+}

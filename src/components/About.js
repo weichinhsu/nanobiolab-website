@@ -22,9 +22,9 @@ class About extends Component {
         const { data } = this.props;
         return (<div>
             <div className="media">
-                <img src={nthu} className="mr-3" alt="..." />
+                <img src={nthu} className="" alt="..." />
                 <div className="media-body">
-                    <h4>{data.name}</h4>
+                    <h4 className="mb-3">{data.name}</h4>
                     <p className="card-text">{data.occupation}</p>
                     <p className="card-text">{data.email}</p>
                     <p className="card-text">{data.phone}</p>
