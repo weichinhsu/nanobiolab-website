@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class ProfessorContent1 extends Component {
   renderPublication = (pub) => {
-    return <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    return <div className="member-item resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
       <div className="resume-content">
-        <h3 className="mb-0">{pub.title}</h3>
+        <h4 className="mb-0">{pub.title}</h4>
         <div className="subheading mb-1">{pub.author}</div>
         <p>{pub.institution ? pub.institution : ''}</p>
       </div>

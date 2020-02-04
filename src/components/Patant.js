@@ -13,8 +13,8 @@ class Patant extends Component {
         </div>
     }
     renderPatant = (pat) => {
-        return <div>
-            <h4>{pat.name}</h4>
+        return <div className="member-item">
+            <h4 className="mb-3">{pat.name}</h4>
             {pat.data.map(row => this.renderRow(row))}
         </div>
     }

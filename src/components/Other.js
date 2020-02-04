@@ -9,7 +9,7 @@ class Other extends Component {
         </div>
     }
     renderOther = (pat) => {
-        return <div  className="member-item">
+        return <div className="member-item">
             <h4 className="mb-3">{pat.name}</h4>
             {pat.data.map(row => this.renderRow(row))}
         </div>
