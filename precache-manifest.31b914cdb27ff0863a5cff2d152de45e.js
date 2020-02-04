@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "673aa7a3392981cf7fefdcb35cc1f3f9",
+    "revision": "e3922417f15ecab922c11793e9b5a86b",
     "url": "/nanobiolab-website/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nanobiolab-website/static/js/2.7b201a72.chunk.js.LICENSE"
   },
   {
-    "revision": "a4af2078a4477feb5339",
-    "url": "/nanobiolab-website/static/js/main.4f69ef31.chunk.js"
+    "revision": "71cb3084b7992d667683",
+    "url": "/nanobiolab-website/static/js/main.f140f23a.chunk.js"
   },
   {
     "revision": "99dd861d172351cf628c",
