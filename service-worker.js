@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nanobiolab-website/precache-manifest.50412be6816a0a8c56ada94df3407ff4.js"
+  "/nanobiolab-website/precache-manifest.e4f1a124d81d891f50978c946abcf705.js"
 );
 
 self.addEventListener('message', (event) => {
