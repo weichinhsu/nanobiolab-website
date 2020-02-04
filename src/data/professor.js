@@ -19,7 +19,7 @@ export default [{
             ["Adjunct Assistant Professor, Department of Bioengineering, Clemson University, USA", "June 2005 – May 2006"],
             ["Post-Doctoral Fellow, Proteomics Center, Medical University of South Carolina, USA", "Nov. 2004 – Oct. 2005"],
         ],
-        "education": [
+        "research": [
             "Biosensors",
             "Nanopore DNA sequencing, bacteria detection",
             "Microfluidic biochips, lab on chip, point-of-care diagnostics",
@@ -67,20 +67,20 @@ export default [{
     "subject": "專利申請",
     "group": [{
         "name": "台灣專利",
-        "data": {
+        "data": [{
             "title": "生物感測器",
             "author": "洪健中、吳政穎",
             "period": "2019/01/18",
             "id": "108101955",
-        }
+        }]
     }, {
         "name": "美國專利",
-        "data": {
+        "data": [{
             "title": "BIOSENSOR",
             "author": "Chien-Chong Hong, Jheng-Ying Wu",
             "period": "2019/03/29",
             "id": "16/370133",
-        },
+        },]
     }]
 }, {
     "subject": "審稿經驗",

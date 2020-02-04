@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
-import nthu from '../assets/images/nthu.png'
-import { Link } from 'dva/router';
 
 class MemberProfile extends Component {
     renderData = (data) => {
