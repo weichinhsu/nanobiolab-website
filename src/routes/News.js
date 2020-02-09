@@ -67,7 +67,7 @@ class News extends Component {
             </header>
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="news" >
                 <div className="w-100" >
-                    <h2 > 最新消息 </h2>
+                    <h3 className="mb-3"> 最新消息 </h3>
                     {data.map(news => this.renderNews(news))}
                 </div>
 

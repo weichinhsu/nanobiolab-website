@@ -17,7 +17,7 @@ class Research extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
-          <h2 className="mb-5">研究方向</h2>
+          <h3 className="mb-3">研究方向</h3>
           <section className="highlight-section">
             <div className="container">
               <div className="row">
