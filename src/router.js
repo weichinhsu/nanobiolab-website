@@ -64,19 +64,13 @@ export default (props) => {
         <ConnectedRouter history={props.history}>
             <RouterRoot {...props} >
                 <Switch >
+                <Route path="/" exact render={ () => (< Redirect to='/news' />)}/> 
                     <HomeLayout route={route} >
                         <Switch >
-                            <Route path="/"
-                                exact render={
-                                    () => (< Redirect to='/news' />)}
-                            /> {
-                                _.map(route, item => (<
-                                    Route key={item.path}
-                                    path={item.path}
-                                    exact component={item.component}
-                                />
-                                ))
+                            {
+                                _.map(route, item => (<Route key={item.path} path={item.path} exact component={item.component} />))
                             }
+                            <Route  component={News}/>)}/> 
                         </Switch>
                     </HomeLayout>
                 </Switch>
