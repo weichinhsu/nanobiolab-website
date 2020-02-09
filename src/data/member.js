@@ -84,8 +84,8 @@ export default [{
     "subject": "碩士生",
     "group": [{
         "name": "陳俊諺",
-        "title": "動機系生醫組 - 共同指導",
-        "period": "第十二屆",
+        "title": "動機系生醫組",
+        "period": "第十二屆 - 共同指導",
         "research": "銀奈米線合成、 奈米線微電極",
         "plan": ["107年度科技部醫療器材創新專案研究計畫(總計畫與子計畫一)", "108年度科技部醫療器材創新專案研究計畫(總計畫與子計畫一)", "產學計畫"],
         "publication": [],
@@ -104,8 +104,8 @@ export default [{
         "cv": ""
     }, {
         "name": "卓明慶",
-        "title": "動機系光機電組 - 共同指導",
-        "period": "第十二屆",
+        "title": "動機系光機電組",
+        "period": "第十二屆 - 共同指導",
         "research": "奈米感測孔、光控分離微結構、場效電晶體感測器、Java/Android嵌入式系統程式設計",
         "plan": ["107年度科技部醫療器材創新專案研究計畫(子計畫二)", "107年度清華 - 馬偕研究合作計畫", "108年度科技部醫療器材創新專案研究計畫(總計畫與子計畫一)", "108年度清華 - 馬偕研究合作計畫"],
         "publication": [],
@@ -144,8 +144,8 @@ export default [{
         "cv": ""
     }, {
         "name": "孫若璞",
-        "title": "動機系生醫組 - 共同指導",
-        "period": "第十三屆",
+        "title": "動機系生醫組 ",
+        "period": "第十三屆- 共同指導",
         "research": "研究主題探討中",
         "plan": [],
         "publication": [],
@@ -181,6 +181,236 @@ export default [{
         "publication": ["投稿準備中"],
         "honor": ["獲得第十五屆國家新創獎", "1篇MicroTAS conference 2018", "榮獲科技部FITI創新創業激勵計畫首獎 - 創業傑出獎"],
         "patent": [],
+        "cv": ""
+    }, {
+        "name": "白佩珊",
+        "title": "動機系生醫組",
+        "period": "第十一屆 - 共同指導",
+        "research": "長片段DNA檢測、奈米孔定位、蛋白質微流體晶片、Java/Android嵌入式系統程式設計",
+        "plan": ["106 年度清華-馬偕研究合作計畫", "106 年度科技部婦幼精準醫療專案研究計畫(子計畫 二)", "107 年度清華-馬偕研究合作計畫", "108 年度清華-馬偕研究合作計畫"],
+        "publication": ["投稿準備中"],
+        "honor": ["2篇 ISMM 2018 conference", "榮獲ISMM 2018 poster award", "榮獲科技部 FITI 創新創業激勵計畫首獎 - 創業傑出獎"],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "吳旻軒",
+        "title": "動機系生醫組",
+        "period": "第十屆",
+        "research": "單顆細菌檢測、奈米感測孔、Java/Android嵌入式系統程式設計",
+        "plan": ["105 年度科技部跨領域整合型研究計畫(總計畫與子計畫 二)", "106 年度清華-馬偕研究合作計畫", "106 年度科技部跨領域整合型研究計畫(總計畫與子計畫 二)", "107 年度清華-馬偕研究合作計畫"],
+        "publication": ["投稿準備中"],
+        "honor": ["獲得第十五屆國家新創獎", "1篇MicroTAS conference 2018"],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "周宗欽",
+        "title": "動機系電控組",
+        "period": "第十屆 - 共同指導",
+        "research": "銀奈米線合成、 自動化滾印製程、奈米線導電微電極、Java/Android嵌入式系統程式設計",
+        "plan": ["105 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)", "106 年度科技部醫療器材創新專案研究計畫(子計畫二)", "106 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)", "107 年度科技部醫療器材創新專案研究計畫(子計畫二)"],
+        "publication": ["投稿準備中"],
+        "honor": ["獲得第十五屆國家新創獎", "1篇MicroTAS conference 2018"],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "吳政穎",
+        "title": "動機系電控組",
+        "period": "第十屆",
+        "research": "增強型聲波收發微傳感器陣列、食安快速檢測晶片、Java/Android嵌入式系統程式設計",
+        "plan": ["105 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)", "106 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)"],
+        "publication": ["投稿準備中"],
+        "honor": ["獲得第十五屆國家新創獎", "1篇MicroTAS conference 2018"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "張修誠",
+        "title": "動機系電控組",
+        "period": "第九屆",
+        "research": "Development of Light-Gating MoS2 FET Devices and Their Applications to Highly Sensitive Ion Sensors",
+        "plan": ["104 年度科技部一般型研究計畫", "105 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)", "106 年度科技部婦幼精準醫療專案研究計畫(子計畫 二)", "106 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)"],
+        "publication": ["投稿準備中"],
+        "honor": ["獲得第十五屆國家新創獎", "1篇MicroTAS conference 2018"],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "王政麟",
+        "title": "動機系生醫組",
+        "period": "第九屆 - 共同指導",
+        "research": "Compact and Efficient Sintered Porous Filters Driven with Vacuum Modules for Plasma Separation from Whole Blood",
+        "plan": ["104 年度清華-馬偕整合型研究合作計畫", "104 年度科技部跨領域整合型研究計畫", "104年度科技部SPARK計畫", "105 年度清華-馬偕整合型研究合作計畫(子計畫一)", "105 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)"],
+        "publication": ["Lab on a Chip (in revision)"],
+        "honor": ["Biosensors 2016 conference"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "王世邦",
+        "title": "動機系生醫組",
+        "period": "第八屆",
+        "research": "Fabrication and Characterization of Solid-State Nanopores on Molybdenum Disulfide Nanosheets for DNA Translocation",
+        "plan": ["104 年度清華-馬偕整合型研究合作計畫(總計畫與子計畫二)", "104 年度 科技部跨領域整合型研究計畫(子計畫一)", "104年度科技部SPARK計畫", "105 年度清華-馬偕整合型研究合作計畫(總計畫與子計畫二)", "105 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)", "106 年度清華-馬偕研究合作計畫"],
+        "publication": ["投稿準備中"],
+        "honor": ["2篇IEEE Sensors conference 2015"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "鐘士誠",
+        "title": "動機系電控組",
+        "period": "第八屆 - 共同指導",
+        "research": "Miniaturization of Molecularly-Imprinted Polymer Beads and Their Applications to Detection of Drug Residue in Foods",
+        "plan": ["104 年度清華-馬偕整合型研究合作計畫(子計畫一)", "104 年度 科技部跨領域整合型研究計畫(總計畫與子計畫二)", "104年度科技部SPARK計畫", "105 年度清華-馬偕整合型研究合作計畫(子計畫一)"],
+        "publication": ["投稿準備中"],
+        "honor": ["1篇MicroTAS conference 2015"],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "陳冠霖",
+        "title": "動機系電控組",
+        "period": "第八屆",
+        "research": "Piezoelectric Polymer Micromachined Acoustic Transducers and Their Applications to Rapid Screening of Drug Residue in Foods",
+        "plan": ["103 年度科技部一般型研究計畫", "104 年度清華-馬偕整合型研究合作計畫(子計畫一)", "104 年度 科技部跨領域整合型研究計畫(總計畫、子計畫一與子計畫二)", "104年度科技部SPARK計畫", "105 年度清華-馬偕整合型研究合作計畫(子計畫一)"],
+        "publication": ["Journal of the Electrochemical Society (2016): 1篇"],
+        "honor": ["1篇MicroTAS conference 2015"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "陳彥任",
+        "title": "動機系光機電組",
+        "period": "共同指導",
+        "research": "Development of Roll-Coated Aligned-Silver Nanowire-Bundle Electrode and Its Application to Solar Cells",
+        "plan": ["104 年度科技部跨領域整合型研究計畫(總計畫與子計畫一)"],
+        "publication": ["Scientific Reports"],
+        "honor": [],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "吳忠軒",
+        "title": "動機系電控組",
+        "period": "第七屆",
+        "research": "Investigation of Gas Sensing Characteristics of Nanowire Sensor Array and Its Applications to Exhaled Breath Sensing Tubes",
+        "plan": ["102 年度清華-馬偕研究合作計畫", "104 年度清華-馬偕整合型研究合作計畫(總計畫)"],
+        "publication": ["Lab on a Chip (2016): 1篇"],
+        "honor": ["獲得第十一屆國家新創獎", "2篇IEEE Sensors conference 2015"],
+        "patent": ["美國 2件", "台灣 2件"],
+        "cv": ""
+    }, {
+        "name": "李佳翃",
+        "title": "動機系生醫組",
+        "period": "第十四屆",
+        "research": "Development and Investigation of Miniaturized Vacuum Module and Its Integration with Disposable Droplet Generators",
+        "plan": ["102 年度清華-馬偕研究合作計畫", "103 年度清華-馬偕研究合作計畫", "104 年度清華-馬偕整合型研究合作計畫  (總計畫)", "104 年度科技部跨領域整合型研究計畫(子計畫一)"],
+        "publication": ["Microfluidics and Nanofluidics (2016): 1篇"],
+        "honor": ["1篇 Biosensors 2014", "獲得第十一屆國家新創獎", "1篇 EMBS conference 2015", "獲得科技部與清大動機系國際會議獎助金"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "游士弘",
+        "title": "動機系生醫組",
+        "period": "第六屆",
+        "research": "Droplet-Based Microfluidic Platforms with Magnetic Beads for Encapsulation of Cells",
+        "plan": ["101 年度 榮總-台聯大研究合作整合型研究計畫", "102 年度 榮總-台聯大研究合作整合型研究計畫", "103 年度清華-馬偕研究合作計畫"],
+        "publication": [],
+        "honor": ["獲得第十一屆國家新創獎", "1篇MicroTAS conference 2015"],
+        "patent": ["美國 2件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "王緯翰",
+        "title": "動機系電控組",
+        "period": "第六屆",
+        "research": "Robust Assembly of Nanowires Based on Dielectrophoresis and Its Applications in Lung Cancer Biomarker Sensors",
+        "plan": ["102 年度清華-馬偕研究合作計畫", "103 年度清華-馬偕研究合作計畫"],
+        "publication": ["Sensors and Actuators B - Chemical (2014): 1篇", "Lab on a Chip (2016): 1篇"],
+        "honor": ["1篇Transducers 2013", "1篇 Biosensors 2014", "獲得第十一屆國家新創獎"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "陳冠文",
+        "title": "動機系電控組",
+        "period": "第六屆",
+        "research": "Development and Investigation of Micropatterning Piezoelectric Polymer Thin Films and Their Applications to Ultrasonic Transceivers",
+        "plan": ["101 年度國科會優秀年輕學者研究計畫", "102 年度清華-馬偕研究合作計畫", "102 年度國科會 一般型研究計畫"],
+        "publication": ["Journal of the Electrochemical Society (2016): 1篇"],
+        "honor": ["1篇 Transducers 2013", "1篇 Biosensors 2014", "獲得第十一屆國家新創獎", "1篇 IUS conference 2015", "1篇MicroTAS conference 2015"],
+        "patent": ["美國 1件", "台灣 2件"],
+        "cv": ""
+    }, {
+        "name": "游博進",
+        "title": "動機系熱流組",
+        "period": "共同指導",
+        "research": "Development and Characterization of Inkjet-Printed-Silver and Conducting Polymer Transparent Mesh-Type Electrodes",
+        "plan": [],
+        "publication": ["Journal of Micromechanics and Microengineering (2014, 2016): 2篇"],
+        "honor": [],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "鍾文",
+        "title": "動機系電控組",
+        "period": "第五屆",
+        "research": "Development and Dynamic Characterizations of Circular-Type Vacuum Modules and Their Applications to On-Chip Two-Stage Precise Microfluidic Delivery",
+        "plan": ["101 年度清華-馬偕研究合作計畫", "100 年度國科會優秀年輕學者研究計畫", "101 年度國科會優秀年輕學者研究計畫", "102 年度清華 - 馬偕研究合作計畫"],
+        "publication": [],
+        "honor": ["2篇 ISMM 2012", "2篇 MicroTAS 2012", "1篇Transducers 2013", "獲得國際會議獎助金共9萬1千元", "1篇 Biosensors 2014"],
+        "patent": ["美國 2件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "鄭勝勻",
+        "title": "動機系電控組",
+        "period": "第五屆",
+        "research": "Electrically-Assisted Assembly of Hybrid Gold-Graphene Electrodes and Their Application in Sensing of Dopamine at Low Concentrations",
+        "plan": ["101 年度 榮總-台聯大研究合作整合型研究計畫", "102 年度 榮總-台聯大研究合作整合型研究計畫"],
+        "publication": [],
+        "honor": ["1篇 ISMM 2012"],
+        "patent": [],
+        "cv": ""
+    }, {
+        "name": "林楷倫",
+        "title": "動機系電控組",
+        "period": "第五屆 - 共同指導",
+        "research": "Development and Investigation of Hybrid Piezoelectric / Conducting Polymers and Their Applications in Power Nanogenerators ",
+        "plan": ["100 年度國科會優秀年輕學者研究計畫", "101 年度國科會優秀年輕學者研究計畫"],
+        "publication": ["Journal of Micromechanics and Microengineering (2014): 1篇"],
+        "honor": ["1篇 IEEE Sensors 2012", "獲得國科會與清大動機系國際會議獎助金共2萬5千元"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "陸國鑫",
+        "title": "動機系熱流組",
+        "period": "共同指導",
+        "research": "Inkjet Printing with Heterostructures for Fabricating High-Resolution Thickness-Tunable Black Matrix of Color Filters",
+        "plan": [],
+        "publication": ["Journal of Micromechanics and Microengineering (2014): 1篇"],
+        "honor": ["獲得第九屆上銀機械碩士論文獎銅質獎"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "蔡承翰",
+        "title": "動機系電控組",
+        "period": "第四屆",
+        "research": "Disposable Vacuum Modules and Their Applications to Handheld Multifunctional Microfluidic Driving Systems",
+        "plan": ["99 年度清華-馬偕研究合作計畫", "100 年度清華-馬偕研究合作計畫", "101 年度清華-馬偕研究合作計畫", "100 年度國科會優秀年輕學者研究計畫"],
+        "publication": [],
+        "honor": ["1篇 Transducers 2011", "1篇 ISMM 2011", "獲ISMM頒海報論文獎", "獲得動機系國際會議獎助金共1萬元", "獲得清大國際交換生 菁英留學獎學金", "2篇 ISMM 2012", "2篇 MicroTAS 2012", "獲得國科會國際會議獎助金共1萬6千元", "1篇Transducers 2013", "獲得第十一屆國家新創獎"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "林子翔",
+        "title": "動機系電控組",
+        "period": "第四屆",
+        "research": "Precise Assembly of Nanowires Based on Dielectrophoresis and Their Applications in Volatile Organic Compounds Sensors",
+        "plan": ["100年度長庚-清華研究合作計畫"],
+        "publication": ["Sensors and Actuators B -Chemical (2014): 1篇", "Biosensors and Bioelectronics (2016): 1篇"],
+        "honor": ["1篇 ISMM 2011", "獲得清大動機系研究生獎學金", "1篇 ISMM 2012", "2篇 MicroTAS 2012"],
+        "patent": ["美國 1件", "台灣 1件"],
+        "cv": ""
+    }, {
+        "name": "陳哲智",
+        "title": "動機系電控組",
+        "period": "第四屆",
+        "research": "Fabrication of Piezoelectric Polymer Thin Films Based on Non-Electrical Polarization Process and Their Applications to Flexible Nanostructured Tactile Sensor Array",
+        "plan": ["99 年度增能研究計畫", "100 年度國科會優秀年輕學者研究計 畫"],
+        "publication": [],
+        "honor": ["1篇 ISMM 2011", "1篇 IEEE MEMS 2012", "獲得國科會與清大動機系國際會議獎助金共10萬元", "1篇 IEEE Sensors 2012"],
+        "patent": ["美國 1件", "台灣 1件"],
         "cv": ""
     }, {
         "name": "陳思穎",
@@ -475,7 +705,7 @@ export default [{
         "research": "文獻研讀與整理、微製程、虛擬儀控、壓電訊號量測",
         "plan": ["Bioinspired Electronic Skin with Microfluidic Layers"],
         "publication": ["實驗高中高二選修清大工學院專題成果發表會"],
-        "honor": [""],
+        "honor": [],
         "patent": [],
         "cv": ""
     }, {
@@ -485,7 +715,7 @@ export default [{
         "research": "文獻研讀與整理、微製程、虛擬儀控、壓電訊號量測",
         "plan": ["Bioinspired Electronic Skin with Microfluidic Layers"],
         "publication": ["實驗高中高二選修清大工學院專題成果發表會"],
-        "honor": [""],
+        "honor": [],
         "patent": [],
         "cv": ""
     }, {
@@ -495,7 +725,7 @@ export default [{
         "research": "文獻研讀與整理、微製程、虛擬儀控、壓電訊號量測",
         "plan": ["Bioinspired Electronic Skin with Microfluidic Layers"],
         "publication": ["實驗高中高二選修清大工學院專題成果發表會"],
-        "honor": [""],
+        "honor": [],
         "patent": [],
         "cv": ""
     }]
