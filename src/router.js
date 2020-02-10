@@ -62,7 +62,7 @@ const RouterRoot = withRouter(_.flow()(Root));
 
 export default (props) => {
     return (
-        <HashRouter basename='/nanobiolab-website'>
+        <HashRouter basename='/'>
             <RouterRoot {...props} >
                 <Switch >
                     <Route path="/" exact render={() => (< Redirect to='/news' />)} />
