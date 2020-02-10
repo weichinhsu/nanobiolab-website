@@ -49,7 +49,7 @@ class News extends Component {
                     </div>
                 </div>
             </div>
-            {this.renderModal(news.modal)}
+            {news.modal ? this.renderModal(news.modal): null}
         </div>
     }
     render() {
