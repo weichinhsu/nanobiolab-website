@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 import nthu from '../assets/images/nthu.png'
-import { Link } from 'dva/router';
+// import { Link } from 'dva/router';
+import { Link } from "react-router-dom";
 
 
 class Sidebar extends Component {

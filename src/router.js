@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Route, Switch, routerRedux, withRouter, Redirect } from 'dva/router';
+// import { Route, Switch, routerRedux, withRouter, Redirect } from 'dva/router';
+import { HashRouter, Route, Link, withRouter, Switch, Redirect } from "react-router-dom";
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
@@ -12,7 +13,7 @@ import Member from './routes/Member';
 import Publication from './routes/Publication';
 import Course from './routes/Course';
 
-const { ConnectedRouter } = routerRedux;
+// const { ConnectedRouter } = routerRedux;
 
 class Root extends Component {
     static propTypes = {
@@ -61,20 +62,40 @@ const RouterRoot = withRouter(_.flow()(Root));
 
 export default (props) => {
     return (
-        <ConnectedRouter history={props.history}>
+        <HashRouter basename='/nanobiolab-website'>
             <RouterRoot {...props} >
                 <Switch >
-                <Route path="/" exact render={ () => (< Redirect to='/news' />)}/> 
+                    <Route path="/" exact render={() => (< Redirect to='/news' />)} />
                     <HomeLayout route={route} >
                         <Switch >
                             {
                                 _.map(route, item => (<Route key={item.path} path={item.path} exact component={item.component} />))
                             }
-                            <Route  component={News}/>)}/> 
+                            <Route component={News} />)}/>
                         </Switch>
                     </HomeLayout>
                 </Switch>
             </RouterRoot>
-        </ConnectedRouter>
+        </HashRouter>
     )
 }
+
+// export default (props) => {
+//     return (
+//         <ConnectedRouter history={props.history}>
+//             <RouterRoot {...props} >
+//                 <Switch >
+//                 <Route path="/" exact render={ () => (< Redirect to='/news' />)}/> 
+//                     <HomeLayout route={route} >
+//                         <Switch >
+//                             {
+//                                 _.map(route, item => (<Route key={item.path} path={item.path} exact component={item.component} />))
+//                             }
+//                             <Route  component={News}/>)}/> 
+//                         </Switch>
+//                     </HomeLayout>
+//                 </Switch>
+//             </RouterRoot>
+//         </ConnectedRouter>
+//     )
+// }

@@ -16,7 +16,7 @@ class News extends Component {
                     </div>
                     <div className="modal-body">
                         <div className="col-md-4" >
-                            <img src={"/img/news/" + row.image[0]}
+                            <img src={process.env.PUBLIC_URL + "/img/news/" + row.image[0]}
                                 className="card-img img-news"
                                 alt="..." />
                         </div>
