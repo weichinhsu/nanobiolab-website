@@ -28,12 +28,12 @@ class Root extends Component {
 
 const route = [{
     name: '最新消息',
-    path: '/news',
+    path: process.env.PUBLIC_URL + '/news',
     component: News,
 },
 {
     name: '指導教授',
-    path: '/professor',
+    path: process.env.PUBLIC_URL + '/professor',
     component: Professor,
 },
 {
