@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { Route, Switch, routerRedux, withRouter, Redirect } from 'dva/router';
-import { HashRouter, Route, Link, withRouter, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, withRouter, Switch, Redirect, BrowserRouter } from "react-router-dom";
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
@@ -62,7 +62,7 @@ const RouterRoot = withRouter(_.flow()(Root));
 
 export default (props) => {
     return (
-        <HashRouter basename='/'>
+        <BrowserRouter basename='/'>
             <RouterRoot {...props} >
                 <Switch >
                     <Route path="/" exact render={() => (< Redirect to='/news' />)} />
@@ -76,7 +76,7 @@ export default (props) => {
                     </HomeLayout>
                 </Switch>
             </RouterRoot>
-        </HashRouter>
+        </BrowserRouter>
     )
 }
 
