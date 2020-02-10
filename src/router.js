@@ -28,12 +28,12 @@ class Root extends Component {
 
 const route = [{
     name: '最新消息',
-    path: process.env.PUBLIC_URL + '/news',
+    path: '/news',
     component: News,
 },
 {
     name: '指導教授',
-    path: process.env.PUBLIC_URL + '/professor',
+    path: '/professor',
     component: Professor,
 },
 {
@@ -62,7 +62,7 @@ const RouterRoot = withRouter(_.flow()(Root));
 
 export default (props) => {
     return (
-        <BrowserRouter basename='/'>
+        <HashRouter basename='/'>
             <RouterRoot {...props} >
                 <Switch >
                     <Route path="/" exact render={() => (< Redirect to='/news' />)} />
@@ -76,7 +76,7 @@ export default (props) => {
                     </HomeLayout>
                 </Switch>
             </RouterRoot>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
