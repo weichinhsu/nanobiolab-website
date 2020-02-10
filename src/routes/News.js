@@ -34,7 +34,7 @@ class News extends Component {
         return <div className="card mb-3" data-toggle="modal" data-target={'#' + news.modal.id}>
             <div className="row no-gutters" >
                 <div className="col-md-4" >
-                    <img src={"%PUBLIC_URL%/img/news/" + news.image}
+                    <img src={process.env.PUBLIC_URL + "/img/news/" + news.image}
                         className="card-img img-news"
                         alt="..." />
                 </div>
