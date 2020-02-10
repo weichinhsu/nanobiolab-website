@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/nanobiolab-website/static/js/main.4c90c764.chunk.js",
-    "main.js.map": "/nanobiolab-website/static/js/main.4c90c764.chunk.js.map",
+    "main.js": "/nanobiolab-website/static/js/main.b3e6f887.chunk.js",
+    "main.js.map": "/nanobiolab-website/static/js/main.b3e6f887.chunk.js.map",
     "runtime-main.js": "/nanobiolab-website/static/js/runtime-main.740ee719.js",
     "runtime-main.js.map": "/nanobiolab-website/static/js/runtime-main.740ee719.js.map",
     "static/js/2.05ba7356.chunk.js": "/nanobiolab-website/static/js/2.05ba7356.chunk.js",
     "static/js/2.05ba7356.chunk.js.map": "/nanobiolab-website/static/js/2.05ba7356.chunk.js.map",
     "index.html": "/nanobiolab-website/index.html",
-    "precache-manifest.ef3eef4757984af99a12e8967464b767.js": "/nanobiolab-website/precache-manifest.ef3eef4757984af99a12e8967464b767.js",
+    "precache-manifest.e23adc0eb0eda4b9b8bbf446de2fa1c3.js": "/nanobiolab-website/precache-manifest.e23adc0eb0eda4b9b8bbf446de2fa1c3.js",
     "service-worker.js": "/nanobiolab-website/service-worker.js",
     "static/js/2.05ba7356.chunk.js.LICENSE": "/nanobiolab-website/static/js/2.05ba7356.chunk.js.LICENSE",
     "static/media/nthu.png": "/nanobiolab-website/static/media/nthu.c5ae20bd.png"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.740ee719.js",
     "static/js/2.05ba7356.chunk.js",
-    "static/js/main.4c90c764.chunk.js"
+    "static/js/main.b3e6f887.chunk.js"
   ]
 }
