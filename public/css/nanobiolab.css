@@ -1,19 +1,19 @@
 .bg-primary {
-    background-color: #256390 !important;
+    background-color: #902525 !important;
 }
 
 .text-primary {
-    color: #256390 !important;
+    color: #902525 !important;
 }
 
 a {
-    color: #256390;
+    color: #902525;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #256390;
+    color: #902525;
 }
 
 section.resume-section {
@@ -216,13 +216,13 @@ header.masthead .intro-text .intro-heading {
 
 hr.divider {
     border-width: .2rem;
-    border-color: #256390;
+    border-color: #902525;
 }
 
 hr.objective_divider {
   max-width: 3.25rem;
   border-width: .2rem;
-  border-color: #256390;
+  border-color: #902525;
 }
 
 .sub-header {
@@ -247,7 +247,7 @@ hr.objective_divider {
     border-radius: 1rem;
 }
 .item-active {
-    background-color: #256390;
+    background-color: #902525;
     color:white;
     border-radius: .3rem;
 }
@@ -256,7 +256,7 @@ hr.objective_divider {
     color:rgb(99, 99, 99)
 }
 .btn-link {
-    color: rgb(20, 86, 173);
+    color:#902525;
 }
 .navbar-toggler {
     color: black
@@ -268,4 +268,7 @@ hr.objective_divider {
     .media {
         display: flex;    
     }
+}
+.read-more:hover{
+    color:#902525
 }

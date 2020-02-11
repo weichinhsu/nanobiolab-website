@@ -60,7 +60,7 @@ class News extends Component {
                         <div className="intro-lead-in" > 國立清華大學動力機械工程學系 </div>
                         { /* <div className="intro-lead-in">Welcome To NanoBioLab!</div> */}
                         <div className="intro-heading text-uppercase" > 生醫奈米與微系統晶片實驗室 </div>
-                        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                        <a className="btn btn-xl text-uppercase js-scroll-trigger read-more"
                             onClick={() => animateScrollTo(document.querySelector('#news'))}>Read More</a>
                     </div>
                 </div>
