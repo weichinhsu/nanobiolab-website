@@ -21,17 +21,24 @@ class About extends Component {
     render() {
         const { data } = this.props;
         return (<div>
-            <div className="media">
-                <img src={nthu} className="" alt="..." />
-                <div className="media-body">
-                    <h4 className="mb-3">{data.name}</h4>
-                    <p className="card-text">{data.occupation}</p>
-                    <p className="card-text">{data.email}</p>
-                    <p className="card-text">{data.phone}</p>
-                    <p className="card-text">{data.address}</p>
-                    {data.homepage ? <a href={data.homepage} target="_blank">Homepage</a> : null}
+            <div class="professor-card card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src={process.env.PUBLIC_URL + "/img/professor/professor.png"} className="card-img" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body professor-card-body">
+                            <h4 className="mb-3">{data.name}</h4>
+                            <p className="card-text">{data.occupation}</p>
+                            <p className="card-text">{data.email}</p>
+                            <p className="card-text">{data.phone}</p>
+                            <p className="card-text">{data.address}</p>
+                            {data.homepage ? <a href={data.homepage} target="_blank">Homepage</a> : null}
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div className="member-item">
                 <h4 className="mb-3">學歷</h4>
                 {data.education.map(row => this.renderRow(row))}

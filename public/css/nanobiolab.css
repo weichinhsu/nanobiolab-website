@@ -272,3 +272,14 @@ hr.objective_divider {
 .read-more:hover{
     color:#902525
 }
+.professor-card{
+    border:none
+}
+@media (min-width: 992px) {
+    .professor-card {
+        width: 75%!important;
+    }
+    .professor-card-body{
+        padding: 0 2rem;
+    }
+}

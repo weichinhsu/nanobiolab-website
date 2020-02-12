@@ -25,17 +25,11 @@ class Professor extends Component {
         switch (type) {
             case '關於':
                 return <About data={pro} />
-            case '期刊論文':
-                return <ProfessorConetent data={pro} />
-            case '國際會議':
-                return <ProfessorConetent data={pro} />
-            case '研討會':
-                return <ProfessorConetent data={pro} />
-            case '專利申請':
-                return <Patant data={pro} />
             case '審稿經驗':
                 return <Other data={pro} />
-            case '其他':
+            case '協同活動':
+                return <Other data={pro} />
+            case '獲獎紀錄':
                 return <Other data={pro} />
         }
     }
