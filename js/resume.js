@@ -24,5 +24,5 @@
   $('body').scrollspy({
     target: '#sideNav'
   });
-
+  $('#new1').modal({backdrop: 'static', keyboard: false}) 
 })(jQuery); // End of use strict

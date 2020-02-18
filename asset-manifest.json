@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/nanobiolab-website/static/js/main.ddfaa61a.chunk.js",
-    "main.js.map": "/nanobiolab-website/static/js/main.ddfaa61a.chunk.js.map",
+    "main.js": "/nanobiolab-website/static/js/main.79225d61.chunk.js",
+    "main.js.map": "/nanobiolab-website/static/js/main.79225d61.chunk.js.map",
     "runtime-main.js": "/nanobiolab-website/static/js/runtime-main.740ee719.js",
     "runtime-main.js.map": "/nanobiolab-website/static/js/runtime-main.740ee719.js.map",
-    "static/js/2.e390e913.chunk.js": "/nanobiolab-website/static/js/2.e390e913.chunk.js",
-    "static/js/2.e390e913.chunk.js.map": "/nanobiolab-website/static/js/2.e390e913.chunk.js.map",
+    "static/js/2.72e7f011.chunk.js": "/nanobiolab-website/static/js/2.72e7f011.chunk.js",
+    "static/js/2.72e7f011.chunk.js.map": "/nanobiolab-website/static/js/2.72e7f011.chunk.js.map",
     "index.html": "/nanobiolab-website/index.html",
-    "precache-manifest.0677d70dabd34ffdb7c555192af39d1c.js": "/nanobiolab-website/precache-manifest.0677d70dabd34ffdb7c555192af39d1c.js",
+    "precache-manifest.ddf2b7c4f858fb23f242fffe245b6218.js": "/nanobiolab-website/precache-manifest.ddf2b7c4f858fb23f242fffe245b6218.js",
     "service-worker.js": "/nanobiolab-website/service-worker.js",
-    "static/js/2.e390e913.chunk.js.LICENSE": "/nanobiolab-website/static/js/2.e390e913.chunk.js.LICENSE",
-    "static/media/nthu.png": "/nanobiolab-website/static/media/nthu.c5ae20bd.png"
+    "static/js/2.72e7f011.chunk.js.LICENSE": "/nanobiolab-website/static/js/2.72e7f011.chunk.js.LICENSE",
+    "static/media/logo.png": "/nanobiolab-website/static/media/logo.a2a88adc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.740ee719.js",
-    "static/js/2.e390e913.chunk.js",
-    "static/js/main.ddfaa61a.chunk.js"
+    "static/js/2.72e7f011.chunk.js",
+    "static/js/main.79225d61.chunk.js"
   ]
 }
