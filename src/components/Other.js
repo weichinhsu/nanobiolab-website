@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next'
 
 class Other extends Component {
     renderRow = (row) => {
@@ -10,7 +11,7 @@ class Other extends Component {
     }
     renderOther = (pat) => {
         return <div className="member-item">
-            <h4 className="mb-3">{pat.name}</h4>
+            <h4 className="mb-3">{this.props.t(pat.name)}</h4>
             {pat.data.map(row => this.renderRow(row))}
         </div>
     }
@@ -24,4 +25,4 @@ class Other extends Component {
     }
 }
 
-export default Other
+export default withTranslation("translation")(Other)

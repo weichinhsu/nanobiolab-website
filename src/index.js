@@ -1,5 +1,6 @@
 import dva from 'dva';
 import { createBrowserHistory as createHistory } from 'history';
+import './translation'
 
 // 1. Initialize
 const app = dva({ history: createHistory( ) });

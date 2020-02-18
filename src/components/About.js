@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import nthu from '../assets/images/nthu.png'
+import { withTranslation } from 'react-i18next'
 
 class About extends Component {
 
@@ -19,15 +19,15 @@ class About extends Component {
         </div>
     }
     render() {
-        const { data } = this.props;
+        const { data, t } = this.props;
         return (<div>
-            <div class="professor-card card mb-3">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
+            <div className="professor-card card mb-3">
+                <div className="row no-gutters">
+                    <div className="col-md-4">
                         <img src={process.env.PUBLIC_URL + "/img/professor/professor.png"} className="card-img" alt="..." />
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body professor-card-body">
+                    <div className="col-md-8">
+                        <div className="card-body professor-card-body">
                             <h4 className="mb-3">{data.name}</h4>
                             <p className="card-text">{data.occupation}</p>
                             <p className="card-text">{data.email}</p>
@@ -40,15 +40,15 @@ class About extends Component {
             </div>
 
             <div className="member-item">
-                <h4 className="mb-3">學歷</h4>
+                <h4 className="mb-3">{t('professor-education')}</h4>
                 {data.education.map(row => this.renderRow(row))}
             </div>
             <div className="member-item">
-                <h4 className="mb-3">研究</h4>
+                <h4 className="mb-3">{t('professor-research')}</h4>
                 {data.research.map(row => this.renderRow(row))}
             </div>
             <div className="member-item">
-                <h4 className="mb-3">經驗</h4>
+                <h4 className="mb-3">{t('professor-experience')}</h4>
                 {data.experience.map(row => this.renderExp(row))}
             </div>
         </div>
@@ -56,4 +56,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default withTranslation("translation")(About);

@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import { HashRouter, Route, withRouter, Switch, Redirect, BrowserRouter } from "react-router-dom";
 import PropTypes from 'prop-types';
 import _ from 'lodash';
+import { I18nextProvider } from 'react-i18next'
+import i18n from './translation'
 
 import HomeLayout from './layouts/HomeLayout';
 
@@ -27,32 +29,32 @@ class Root extends Component {
 }
 
 const route = [{
-    name: '最新消息',
+    name: 'news',
     path: '/news',
     component: News,
 },
 {
-    name: '指導教授',
+    name: 'professor',
     path: '/professor',
     component: Professor,
 },
 {
-    name: '研究方向',
+    name: 'research',
     path: '/research',
     component: Research,
 },
 {
-    name: '研究室成員',
+    name: 'member',
     path: '/member',
     component: Member,
 },
 {
-    name: '發表成果',
+    name: 'publication',
     path: '/publication',
     component: Publication,
 },
 {
-    name: '開授課程',
+    name: 'course',
     path: '/course',
     component: Course,
 },
@@ -62,21 +64,23 @@ const RouterRoot = withRouter(_.flow()(Root));
 
 export default (props) => {
     return (
-        <HashRouter basename='/'>
-            <RouterRoot {...props} >
-                <Switch >
-                    <Route path="/" exact render={() => (< Redirect to='/news' />)} />
-                    <HomeLayout route={route} >
-                        <Switch >
-                            {
-                                _.map(route, item => (<Route key={item.path} path={item.path} exact component={item.component} />))
-                            }
-                            <Route component={News} />)}/>
-                        </Switch>
-                    </HomeLayout>
-                </Switch>
-            </RouterRoot>
-        </HashRouter>
+        <I18nextProvider i18n={i18n}>
+            <HashRouter basename='/'>
+                <RouterRoot {...props} >
+                    <Switch >
+                        <Route path="/" exact render={() => (< Redirect to='/news' />)} />
+                        <HomeLayout route={route} >
+                            <Switch >
+                                {
+                                    _.map(route, item => (<Route key={item.path} path={item.path} exact component={item.component} />))
+                                }
+                                <Route component={News} />
+                            </Switch>
+                        </HomeLayout>
+                    </Switch>
+                </RouterRoot>
+            </HashRouter>
+        </I18nextProvider>
     )
 }
 

@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import nthu from '../assets/images/nthu.png'
-// import { Link } from 'dva/router';
+import nthu from '../assets/images/logo.png'
 import { Link } from "react-router-dom";
+import { withTranslation } from 'react-i18next'
 
 
 class Sidebar extends Component {
     state = {
         key: null,
+        lang: 'en'
+    }
+
+    changeLang = (lang) => {
+        this.setState({lang})
     }
 
     render() {
-        const { menu } = this.props;
-
+        const { menu, t, i18n } = this.props
+        const { lang } = this.state
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
                 <a className="navbar-brand js-scroll-trigger" >
                     <span className="d-block d-lg-none">NanoBioLab</span>
                     <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={nthu} alt="" />
-                        <p className="sidebar-p">生醫奈米與<br/>微系統晶片實驗室</p>
+                        <img className="img-fluid img-profile mx-auto mb-3" src={nthu} alt="" />
+                        <p className="sidebar-p">{t('sidebar-name')}<br />{t('sidebar-name2')}</p>
                         <p className="sidebar-p"></p>
                     </span>
                 </a>
@@ -31,15 +36,21 @@ class Sidebar extends Component {
                         {
                             _.map(menu, item => (
                                 <li className="nav-item">
-                                    <Link className="nav-link js-scroll-trigger" to={item.path}>{item.name}</Link>
+                                    <Link className="nav-link js-scroll-trigger" to={item.path}>{t(item.name)}</Link>
                                 </li>
                             ))
                         }
+                        <li className="lang">
+                            <a className={lang === 'en' ? 'lang-active' : null}
+                                onClick={() => { i18n.changeLanguage('en'); this.changeLang('en') }}>{t('en')}</a> ｜
+                            <a className={lang === 'tw' ? 'lang-active' : null}
+                                onClick={() => { i18n.changeLanguage('tw'); this.changeLang('tw') }}>{t('tw')}</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
-        );
+        )
     }
 }
 
-export default Sidebar;
+export default withTranslation("translation")(Sidebar);

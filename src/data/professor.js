@@ -1,7 +1,7 @@
 export default [{
-    "subject": "關於",
+    "subject": "professor-about",
     "group": {
-        "name": "Chien-Chong Hong, Ph.D.",
+        "name": "Chien-Chong Hong",
         "occupation": "Professor, Department of Power Mechanical Engineering",
         "email": "chong@pme.nthu.edu.tw",
         "phone": "886-3-5715131 ext. 33736",
@@ -30,16 +30,16 @@ export default [{
         ],
     },
 }, {
-    "subject": "審稿經驗",
+    "subject": "professor-reviewer",
     "group": [{
-        "name": "個人",
+        "name": "professor-proposal-reviewer",
         "data": [
             "Proposal Funding Reviewer, USA National Science Foundation –IRFP (International Research Fellowship Program)",
             "Proposal Funding Reviewer, Industrial Technology Research Institute (ITRI), Taiwan",
             "Proposal Funding Reviewer, Taiwan National Science Council",
         ]
     }, {
-        "name": "出版",
+        "name": "professor-publication-reviewer",
         "data": [
             "Advanced Materials",
             "Biosensors & Bioelectronics",
@@ -73,7 +73,7 @@ export default [{
             "Scientific Reports"
         ]
     }, {
-        "name": "研討會",
+        "name": "professor-conference-reviewer",
         "data": [
             "IEEE Sensors Conference 2018",
             "ASME IMECE Congress",
@@ -86,9 +86,9 @@ export default [{
         ]
     }]
 }, {
-    "subject": "協同活動",
+    "subject": "professor-synergistic",
     "group": [{
-        "name": "協同活動",
+        "name": "professor-synergistic",
         "data": [
             "Associate Editor, Journal of Microelectronic Engineering",
             "Associate Editor, Micro and Nano Engineering ",
@@ -98,9 +98,9 @@ export default [{
         ]
     }]
 }, {
-    "subject": "獲獎紀錄",
+    "subject": "professor-award",
     "group": [{
-        "name": "獲獎紀錄",
+        "name": "professor-award",
         "data": [
             "Our sub-20 nm polymer nanotip/nanopore research was selected by Nature Asia Materials for highlighting (2010).",
             "Our sub-20 nm polymer nanotip/nanopore research was selected by Taiwan National Science Council for highlighting (2010).",

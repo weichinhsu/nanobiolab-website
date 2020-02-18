@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
+import { withTranslation } from 'react-i18next'
 import data from '../data/research'
 
 class Research extends Component {
@@ -14,10 +15,11 @@ class Research extends Component {
     </div>
   }
   render() {
+    const { t, i18n } = this.props;
     return (
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
-          <h3 className="mb-3">研究方向</h3>
+        {i18n.language === 'en' ? <h3 className="en-font">{t('research')}</h3> : <h3 className="mb-3">{t('research')}</h3>}
           <section className="highlight-section">
             <div className="container">
               <div className="row">
@@ -42,4 +44,4 @@ class Research extends Component {
   }
 }
 
-export default connect()(Research);
+export default withTranslation("translation")(connect()(Research));

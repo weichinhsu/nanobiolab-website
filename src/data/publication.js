@@ -1,5 +1,5 @@
 export default [{
-    "subject": "期刊論文",
+    "subject": "publication-papers",
     "group": [{
         "title": "Roller-Induced Bundling of Long Silver Nanowire Networks for Strong Interfacial Adhesion, Highly Flexible, Transparent Conductive Electrodes",
         "author": "Yan-Ren Chen, Chien-Chong Hong*, Tong-Miin Liou*, Kuo Chu Hwang, Tzung-Fang Guo",
@@ -8,7 +8,7 @@ export default [{
     }, {
         "title": "Handheld Analyzer with Molecularly-Imprinted Biosensors for Electrical Detection of Anesthetic Propofol in Plasma Samples",
         "author": "Chien-Chong Hong*, Chih-Chung Lin, Chian-Lang Hong*, Zi-Xiang Lin, Meng-Hua Chung, Pei-Wen Hsieh",
-        "period": "201ˊ",
+        "period": "2016",
         "institution": "Biosensors and Bioelectronics",
     }, {
         "title": "A Disposable Breath Sensing Tube with On-Tube Single-Nanowire Sensor Array for On-Site Detection of Exhaled Breath Biomarkers",
@@ -107,7 +107,7 @@ export default [{
         "institution": "微系統暨奈米科技協會會刊, 第28期, 第27-31頁",
     },]
 }, {
-    "subject": "國際會議",
+    "subject": "publication-conference",
     "group": [{
         "title": "On-Chip Plasma Separation with Shape-Memory Vacuum Module for On-Site Rapid Detection from Whole Blood Samples",
         "author": "Zheng-Lin Wang, Chian-Lang Hong, and Chien-Chong Hong",
@@ -215,7 +215,7 @@ export default [{
         "institution": "Proceedings of the 13th International Conference on Micro Total Analysis Systems (micro-TAS 2009), Jeju, Korea",
     },]
 }, {
-    "subject": "研討會",
+    "subject": "publication-symposium",
     "group": [{
         "title": "Interleukin-6 Protein Biosensors Based on Artificially-Made Recognition Elements for Point-of-Care Diagnostics",
         "author": "Pei-Shan Pai, Ching-Chih Chang, Chien-Chong Hong Tong-Miin Liou, and Chie-Pein Chen",
@@ -298,9 +298,9 @@ export default [{
         "institution": "",
     },]
 }, {
-    "subject": "專利申請",
+    "subject": "publication-patent",
     "group": [{
-        "name": "台灣專利",
+        "name": "patent-tw",
         "data": [{
             "title": "生物感測器",
             "author": "洪健中、吳政穎",
@@ -403,7 +403,7 @@ export default [{
             "id": "發明第I 386297",
         }]
     }, {
-        "name": "美國專利",
+        "name": "patent-us",
         "data": [{
             "title": "BIOSENSOR",
             "author": "Chien-Chong Hong, Jheng-Ying Wu",
@@ -496,7 +496,7 @@ export default [{
             "id": "no. US 8734890 B2",
         }, ]
     }, {
-        "name": "歐洲專利",
+        "name": "patent-eu",
         "data": [{
             "title": "MICROFLUIDIC CHIP DEVICE AND METHOD OF MAKING THE SAME",
             "author": "Chien-Chong Hong and J.-C. Chen",
@@ -504,7 +504,7 @@ export default [{
             "id": "no. EP 2375071 B1",
         }, ]
     }, {
-        "name": "日本專利",
+        "name": "patent-jp",
         "data": [{
             "title": "MICROFLUIDIC CHIP DEVICE AND METHOD OF MAKING THE SAME",
             "author": "Chien-Chong Hong and J.-C. Chen",
@@ -512,7 +512,7 @@ export default [{
             "id": "5379766",
         }, ]
     }, {
-        "name": "中國專利",
+        "name": "patent-cn",
         "data": [{
             "title": "測量溶液中之微量待測物濃度的方法及麻醉劑感測晶片",
             "author": "洪健中, 鍾孟樺, 林志中",
