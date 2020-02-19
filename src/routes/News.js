@@ -6,8 +6,21 @@ import { withTranslation } from 'react-i18next'
 import data from '../data/news'
 
 class News extends Component {
+    renderImage = (image) => {
+        return <div>
+            <ol class="carousel-indicators">
+                {image.map((ref, index) => <li data-target="#carouselExampleIndicators" data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)}
+            </ol>
+            <div class="carousel-inner">
+                {image.map((ref, index) => <div class={"carousel-item " + (index === 0 ? "active" : "")}>
+                    <img src={process.env.PUBLIC_URL + "/img/news/" + ref} class="d-block w-100" alt="..." />
+                </div>
+                )}
+            </div>
+        </div>
+    }
     renderModal = (row) => {
-        return <div className="modal fade" id={row.id} tabIndex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        return <div className="modal fade" id={row.id} tabIndex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
             <div className="modal-dialog modal-dialog-scrollable modal-lg" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
@@ -17,29 +30,40 @@ class News extends Component {
                         </button>
                     </div>
                     <div className="modal-body">
-                        <div className="row justify-content-center" >
-                            <div className="col-8">
-                                <img src={process.env.PUBLIC_URL + "/img/news/" + row.image[0]}
-                                    className="card-img img-news"
-                                    alt="..." />
+                        {
+                            row.image ? <div className="row justify-content-center" >
+                                <div className="col-8">
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        {this.renderImage(row.image)}
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                                : null
+                        }
                         <br />
-                        <p>【截自 {row.reference}】<br /></p>
-                        {row.content.map(cont => <p>{cont}<br /></p>)}
+                        {row.reference ? <p><i className="fa fa-chevron-circle-right"></i> 截自 {row.reference}<br /></p> : null}
 
-                        <p>【其他資訊】</p>
-                        {row.references.map(ref => <a href={ref[1]} target="_blank">{ref[0]}<br /></a>)}
+                        {row.content ? row.content.map(cont => <p>{cont}<br /></p>) : null}
+                        {row.references ? <p><i className="fa fa-chevron-circle-right"></i> 其他資訊</p> : null}
+                        {row.references ? row.references.map(ref => <a href={ref[1]} target="_blank">{ref[0]}<br /></a>) : null}
                     </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
+                <div className="modal-footer">
+                    <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+        </div >
     }
     renderNews = (news) => {
-        return <div className="card mb-3" data-toggle="modal" data-backdrop="static" data-keyboard="false" data-target={'#' + news.modal.id}>
+        return <div><div className="card mb-3" data-toggle="modal" data-keyboard="false" data-target={'#' + news.modal.id}>
             <div className="row no-gutters" >
                 <div className="col-md-4" >
                     <img src={process.env.PUBLIC_URL + "/img/news/" + news.image}
@@ -54,6 +78,7 @@ class News extends Component {
                     </div>
                 </div>
             </div>
+        </div>
             {news.modal ? this.renderModal(news.modal) : null}
         </div>
     }

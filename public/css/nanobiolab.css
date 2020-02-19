@@ -331,3 +331,22 @@ hr.objective_divider {
     font-size: 1.2rem;
     color:rgb(32, 32, 32)
 }
+
+.carousel-inner{
+    max-height: 350px;
+}
+
+.carousel-inner > .carousel-item {
+    height: 350px;
+  }
+  
+  .carousel-inner > .carousel-item > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 800px;
+    width: auto;
+  }
