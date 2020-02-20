@@ -156,7 +156,7 @@ header.masthead .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Microsoft JhengHei';
+    font-family: 'Microsoft JhengHei';
 }
 
 header.masthead .intro-text .intro-heading {
@@ -164,7 +164,7 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Microsoft JhengHei';
+    font-family: 'Microsoft JhengHei';
 }
 
 @media (min-width: 768px) {
@@ -187,25 +187,25 @@ header.masthead .intro-text .intro-heading {
         font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
-        font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Microsoft JhengHei';
+        font-family: 'Microsoft JhengHei';
     }
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Microsoft JhengHei';
+        font-family: 'Microsoft JhengHei';
     }
 }
 
-.img-news {
+.img-news .img-activity {
     opacity: 0.8;
 }
 
 .sidebar-p {
     color: white;
     font-size: 1.15rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .highlight-section {
@@ -330,4 +330,37 @@ hr.objective_divider {
 .member-card-btn {
     font-size: 1.2rem;
     color:rgb(32, 32, 32)
+}
+
+.carousel-inner{
+    max-height: 350px;
+}
+
+.carousel-inner > .carousel-item {
+    height: 350px;
+  }
+  
+.carousel-inner > .carousel-item > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 800px;
+    width: auto;
+}
+
+.act-modal-header {
+    padding: .3rem 1rem;
+}
+
+.activity-card-btn{
+    font-size: 1.7rem;
+    color: black;
+    padding: 0 0 1rem 0;
+}
+
+.activity-card-btn:hover{
+    color: #902525;
 }
