@@ -43,4 +43,6 @@ export default {
     "member-undergraduate": "專題生",
     "member-bs": "大學專題生",
     "member-junior": "高中專題生",
+    "activity": "活動相簿",
+    "activity-return": "返回",
 }

@@ -43,4 +43,6 @@ export default {
     "member-undergraduate":"專題生",
     "member-bs":"Undergraduate",
     "member-junior":"Junior",
+    "activity": "Activity",
+    "activity-return": "Back",
 }

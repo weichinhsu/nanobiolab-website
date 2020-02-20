@@ -89,7 +89,6 @@ class News extends Component {
                 <div className="container" >
                     <div className="intro-text" >
                         <div className="intro-lead-in" > {t('news-department')} </div>
-                        { /* <div className="intro-lead-in">Welcome To NanoBioLab!</div> */}
                         <div className="intro-heading text-uppercase" > {t('news-labname')} </div>
                         <a className="btn btn-xl text-uppercase js-scroll-trigger read-more"
                             onClick={() => animateScrollTo(document.querySelector('#news'))}>Read More</a>
@@ -98,7 +97,7 @@ class News extends Component {
             </header>
             <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="news" >
                 <div className="w-100" >
-                    {i18n.language === 'en' ? <h3 className="en-font">{t('news')}</h3> : <h3 className="mb-3">{t('news')}</h3>}
+                    <h3 className="mb-3">{t('news')}</h3>
                     {data.map(news => this.renderNews(news))}
                 </div>
             </section>

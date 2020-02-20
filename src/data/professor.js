@@ -6,7 +6,7 @@ export default [{
         "email": "chong@pme.nthu.edu.tw",
         "phone": "886-3-5715131 ext. 33736",
         "address": "101, Sec. 2, Kuang Fu Rd., Hsinchu, Taiwan",
-        "homepage": "www.pme.nthu.edu.tw/nanobiolab",
+        "homepage": "https://www.pme.nthu.edu.tw/nanobiolab",
         "education": [
             "Ph. D. in Electrical Engineering - University of Cincinnati, Cincinnati, Ohio, USA, 2004",
             "M.S. in Electrical Engineering - University of Cincinnati, Cincinnati, Ohio, USA, 2001",

@@ -19,12 +19,12 @@ class Research extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
-        {i18n.language === 'en' ? <h3 className="en-font">{t('research')}</h3> : <h3 className="mb-3">{t('research')}</h3>}
+        <h3 className="mb-3">{t('research')}</h3>
           <section className="highlight-section">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
-                  <h3 className="section-subheading text-muted">{data.title}</h3>
+                  <h4 className="section-subheading text-muted">{data.title}</h4>
                   <hr className="objective_divider my-4"></hr>
                   <h5 className="section-heading">
                     {data.content}

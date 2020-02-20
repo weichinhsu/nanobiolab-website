@@ -14,6 +14,8 @@ import Professor from './routes/Professor';
 import Member from './routes/Member';
 import Publication from './routes/Publication';
 import Course from './routes/Course';
+import Activity from './routes/Activity';
+import ActivityDetail from './routes/ActivityDetail';
 
 // const { ConnectedRouter } = routerRedux;
 
@@ -58,7 +60,12 @@ const route = [{
     path: '/course',
     component: Course,
 },
-];
+{
+    name: 'activity',
+    path: '/activity',
+    component: Activity,
+},
+]
 
 const RouterRoot = withRouter(_.flow()(Root));
 
@@ -74,6 +81,7 @@ export default (props) => {
                                 {
                                     _.map(route, item => (<Route key={item.path} path={item.path} exact component={item.component} />))
                                 }
+                                <Route path="/activity/:id" component={ActivityDetail} />
                                 <Route component={News} />
                             </Switch>
                         </HomeLayout>

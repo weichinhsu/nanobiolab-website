@@ -1,5 +1,5 @@
 export default [{
-    "subject": "近期開授課程",
+    "subject": "couese-recent",
     "group": [{
         "title": "2201 電路學 Electric Circuits",
         "period": "",
@@ -22,7 +22,7 @@ export default [{
         "semester": "(95上、96上、97下、98上 、99上、100上、101上、102上、103上、104上、105上 、106上、107下研究所授課)"
     }]
 }, {
-    "subject": "過去開授課程",
+    "subject": "couese-past",
     "group": [{
         "title": "421700 電控系統與應用 Applications of Electromechanical Control Systems",
         "period": "",

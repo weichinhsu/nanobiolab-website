@@ -15,7 +15,7 @@ class Course extends Component {
   }
   renderCourse = (course) => {
     return <div>
-      <h4 className="mb-3">{course.subject}</h4>
+      <h4 className="mb-3">{this.props.t(course.subject)}</h4>
       {course.group.map(row => this.renderRow(row))}
     </div>
   }
@@ -24,7 +24,7 @@ class Course extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="education">
         <div className="w-100">
-          {i18n.language === 'en' ? <h3 className="en-font">{t('course')}</h3> : <h3 className="mb-3">{t('course')}</h3>}
+          <h3 className="mb-3">{t('course')}</h3>
           {data.map(course => this.renderCourse(course))}
         </div>
       </section>

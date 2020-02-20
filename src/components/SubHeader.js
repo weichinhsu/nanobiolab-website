@@ -13,7 +13,7 @@ class SubHeader extends Component {
         const { data, title, i18n } = this.props;
         return (
             <div>
-                {i18n.language === 'en' ? <h3 className="en-font">{title}</h3> : <h3 className="mb-3">{title}</h3>}
+                <h3 className="mb-3">{title}</h3>
                 <nav className="navbar-expand-lg navbar-dark sub-header" id="mainNav">
                     <button className="navbar-toggler navbar-toggler-right" type="button"
                         data-toggle="collapse" data-target="#navbarResponsive"
