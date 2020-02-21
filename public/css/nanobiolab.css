@@ -198,7 +198,11 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
-.img-news .img-activity {
+.img-news {
+    opacity: 0.8;
+}
+
+.img-activity {
     opacity: 0.8;
 }
 
@@ -291,7 +295,6 @@ hr.objective_divider {
 }
 
 .lang{
-    position: absolute;
     bottom: 2rem;
     width: 100%;
     color: rgb(255, 255, 255, .75);
@@ -306,7 +309,11 @@ hr.objective_divider {
     color: white;
     font-weight: 700;
 }
-
+@media (min-width: 992px) {
+    .lang {
+        position: absolute;   
+    }
+}
 .en-font{
     font-size: 3rem;
 }

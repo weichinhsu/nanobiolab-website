@@ -6,10 +6,10 @@ import { withTranslation } from 'react-i18next'
 import data from '../data/news'
 
 class News extends Component {
-    renderImage = (image) => {
+    renderImage = (image, id) => {
         return <div>
             <ol class="carousel-indicators">
-                {image.map((ref, index) => <li data-target="#carouselExampleIndicators" data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)}
+                {image.map((ref, index) => <li data-target={"#carousel-" + id} data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)}
             </ol>
             <div class="carousel-inner">
                 {image.map((ref, index) => <div class={"carousel-item " + (index === 0 ? "active" : "")}>
@@ -33,13 +33,13 @@ class News extends Component {
                         {
                             row.image ? <div className="row justify-content-center" >
                                 <div className="col-8">
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                        {this.renderImage(row.image)}
-                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <div id={"carousel-" + row.id} class="carousel slide" data-ride="carousel">
+                                        {this.renderImage(row.image, row.id)}
+                                        <a class="carousel-control-prev" href={"#carousel-" + row.id}  role="button" data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <a class="carousel-control-next" href={"#carousel-" + row.id}  role="button" data-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="sr-only">Next</span>
                                         </a>
