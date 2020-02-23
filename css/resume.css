@@ -6,14 +6,14 @@
 
 body {
   font-family: 'Microsoft JhengHei' ;
-  padding-top: 54px;
+  /* padding-top: 54px; */
   color: #797979;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 0;
-    padding-left: 17rem;
+    /* padding-top: 0; */
+    /* padding-left: 17rem; */
   }
 }
 
