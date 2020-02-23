@@ -16,10 +16,10 @@ class Research extends Component {
   }
   render() {
     const { t, i18n } = this.props;
-    return (
+    return (<div className="content">
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div className="w-100">
-        <h3 className="mb-3">{t('research')}</h3>
+          <h3 className="mb-3">{t('research')}</h3>
           <section className="highlight-section">
             <div className="container">
               <div className="row">
@@ -38,8 +38,8 @@ class Research extends Component {
 
           </div>
         </div>
-
       </section>
+    </div>
     );
   }
 }

@@ -35,13 +35,14 @@ class Professor extends Component {
     render() {
         const { type } = this.state
         const { t, i18n } = this.props;
-        return (
+        return (<div className="content">
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="education">
                 <div className="w-100">
                     <SubHeader data={data} title={t('professor')} onSubHeaderClick={this.professerType} isActive={type} />
                     {this.renderContent()}
                 </div>
             </section>
+        </div>
         );
     }
 }

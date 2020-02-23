@@ -16,6 +16,7 @@ import Publication from './routes/Publication';
 import Course from './routes/Course';
 import Activity from './routes/Activity';
 import ActivityDetail from './routes/ActivityDetail';
+import Welcome from './routes/Welcome';
 
 // const { ConnectedRouter } = routerRedux;
 
@@ -75,7 +76,7 @@ export default (props) => {
             <HashRouter basename='/'>
                 <RouterRoot {...props} >
                     <Switch >
-                        <Route path="/" exact render={() => (< Redirect to='/news' />)} />
+                        <Route path="/" exact component={Welcome} />
                         <HomeLayout route={route} >
                             <Switch >
                                 {

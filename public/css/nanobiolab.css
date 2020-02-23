@@ -1,3 +1,14 @@
+.content {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    .content {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+  }
+
 .bg-primary {
     background-color: #902525 !important;
 }
@@ -128,7 +139,7 @@ section.resume-section .resume-item .resume-date {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/background.jpg");
     background: linear-gradient(to bottom, rgba(56, 56, 56, 0.5) 0, rgba(56, 56, 56, .5) 100%), url(../img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -371,3 +382,135 @@ hr.objective_divider {
 .activity-card-btn:hover{
     color: #902525;
 }
+
+.welcome {
+    color: white;
+    background-image: url("../img/welcome.jpg");
+    background: linear-gradient(to bottom, rgba(56, 56, 56, 0.5) 0, rgba(56, 56, 56, .5) 100%), url(../img/welcome.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    white-space:nowrap;
+    animation: fadein 2s;
+    max-width: 75rem -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+}
+
+.wel-title {
+    font-size: 8vw;
+    /* font-weight: 300; */
+    line-height: 8vw;
+    animation: movein 2s;
+    /* animation-delay:1s */
+}
+
+@media (min-width: 992px) {
+    .wel-title {
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+}
+
+@keyframes movein {
+    from {
+      margin-left: 200px;
+    }
+    to {
+      margin-left: 0px;
+    }
+  }
+
+.wel-btn {
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    /* opacity: .5; */
+    background-color: rgb(41, 41, 41);
+    border: 3px solid rgb(41, 41, 41);
+    text-align: center;
+    font-weight: 300;
+    color: inherit;
+    text-decoration: none;
+}
+
+.wel-btn:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.wel-btn-div:hover{
+    color: black;
+}
+
+.wel-btn:hover .wel-icon {
+    /* -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px); */
+    animation: btn-icon 1s;
+    animation-iteration-count:infinite;
+    /* transition-timing-function: ; */
+}
+
+@keyframes btn-icon {
+    from {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+  }
+
+.nthu{
+    background-image: url("../img/nthu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+    width: 20vw;
+    margin: 0 10vw;
+    z-index: 100;
+    animation: movetop .5s;
+    /* transform: translateX(300px); */
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-out
+}
+
+.nthu-title{
+    text-align: center;
+    animation-delay: 5s;
+    animation: movetop 1s;
+}
+
+@media (min-width: 992px) {
+    .nthu {
+        height: 12vw;
+        width: 12vw;
+    }
+}
+
+@keyframes movetop {
+    from {
+      margin-top: 0px;
+    }
+    to {
+      margin-top: -200px;
+    }
+  }

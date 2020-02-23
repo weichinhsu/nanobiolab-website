@@ -6,7 +6,7 @@ import data from '../data/activity'
 
 class ActivityDetail extends Component {
     renderModal = (image, index) => {
-        return <div className="modal fade" id={"img"+index} tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        return <div className="modal fade" id={"img" + index} tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div className="modal-dialog modal-dialog-centered" role="document">
                 <div className="modal-content">
                     <div className="modal-header act-modal-header">
@@ -41,18 +41,19 @@ class ActivityDetail extends Component {
             return <Redirect to="/activity" push />
         }
         console.log(location.state)
-        return (
+        return (<div className="content">
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="education">
                 <div className="w-100">
                     {/* <a className="mb-4" onClick={() => history.goBack()}>{location.state.title}</a> */}
                     <button className="btn activity-card-btn" type="button" onClick={() => history.goBack()}>
-                    <i class="fa fa-angle-left"></i> {t('activity-return')}
+                        <i class="fa fa-angle-left"></i> {t('activity-return')}
                     </button>
                     <div className="row row-cols-1 row-cols-md-4">
                         {location.state.image.map((image, index) => this.renderImage(image, index))}
                     </div>
                 </div>
             </section>
+        </div>
         );
     }
 }

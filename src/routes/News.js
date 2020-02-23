@@ -84,7 +84,7 @@ class News extends Component {
     }
     render() {
         const { t, i18n } = this.props;
-        return (<div >
+        return (<div className="content">
             <header className="masthead" id="home" >
                 <div className="container" >
                     <div className="intro-text" >
