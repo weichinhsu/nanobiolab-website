@@ -30,7 +30,8 @@ a:active {
 section.resume-section {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
-    max-width: 75rem -webkit-animation: fadein 2s;
+    max-width: 75rem;
+    -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
     /* Firefox < 16 */
@@ -48,7 +49,8 @@ section.resume-section .resume-item .resume-date {
 @media (min-width:768px) {
     section.resume-section {
         min-height: 100vh;
-        max-width: 75rem -webkit-animation: fadein 2s;
+        max-width: 75rem;
+        -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
         /* Firefox < 16 */
@@ -67,7 +69,8 @@ section.resume-section .resume-item .resume-date {
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important;
-        max-width: 75rem -webkit-animation: fadein 2s;
+        max-width: 75rem;
+        -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
         /* Firefox < 16 */
@@ -146,7 +149,8 @@ header.masthead {
     background-position: center center;
     background-size: cover;
     height: 500px;
-    max-width: 75rem -webkit-animation: fadein 2s;
+    max-width: 75rem;
+    -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
     /* Firefox < 16 */
@@ -182,7 +186,8 @@ header.masthead .intro-text .intro-heading {
     header.masthead .intro-text {
         padding-top: 150px;
         padding-bottom: 100px;
-        max-width: 75rem -webkit-animation: fadein 2s;
+        max-width: 75rem;
+        -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
         /* Firefox < 16 */
@@ -391,16 +396,16 @@ hr.objective_divider {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    height: 500px;
-    min-height: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     display:flex;
     align-items:center;
     justify-content:center;
     white-space:nowrap;
+    /* background-size: calc(100% + 20px); */
     animation: fadein 2s;
-    max-width: 75rem -webkit-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
     /* Firefox < 16 */
@@ -428,9 +433,11 @@ hr.objective_divider {
 @keyframes movein {
     from {
       margin-left: 200px;
+      opacity: 0;
     }
     to {
       margin-left: 0px;
+      opacity: 1;
     }
   }
 
@@ -449,10 +456,6 @@ hr.objective_divider {
 .wel-btn:hover {
     background-color: transparent;
     text-decoration: none;
-    color: black;
-}
-
-.wel-btn-div:hover{
     color: black;
 }
 
@@ -477,40 +480,94 @@ hr.objective_divider {
     }
   }
 
-.nthu{
+.nthu-div {
+    display: flex;
+}
+
+#nthu{
+    flex: 1;
     background-image: url("../img/nthu.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     height: 20vw;
     width: 20vw;
-    margin: 0 10vw;
-    z-index: 100;
-    animation: movetop .5s;
+    /* margin-top: 200px; */
+    /* max-width: 20vw; */
+    animation: movetop 3s;
     /* transform: translateX(300px); */
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    animation-timing-function: ease-out
+    /* animation-timing-function: ease-out; */
+
+    opacity:0;
 }
 
-.nthu-title{
-    text-align: center;
-    animation-delay: 5s;
-    animation: movetop 1s;
-}
-
-@media (min-width: 992px) {
-    .nthu {
+@media (min-width: 1025px) {
+    #nthu {
         height: 12vw;
         width: 12vw;
+        /* max-width: 12vw; */
     }
+}
+
+#nthu-title{
+    opacity: 0;
+    text-align: center;
+    font-size: 4vw;
+
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    animation: reveal 3s;
+    animation-delay: 1s;
+
+    height: 0px;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    /* animation-delay: 5s; */
+    /* animation: fadein 1s; */
+    /* display: none; */
+}
+
+#nthu-title-span {
+    margin-top:-100px;
+    animation: slidein 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+    0% { margin-top:-100px; }
+    20% { margin-top:-100px; }
+    100% { margin-top:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;height:0px; }
+    20% {opacity:0;height:0px; }
+    70% {opacity:1;height:100px;}
+    100% {opacity:0;height:0px;}
 }
 
 @keyframes movetop {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    70% {opacity:1;}
+    100% {opacity:0;}
+  }
+
+/* @keyframes movetop {
     from {
-      margin-top: 0px;
+      margin-top: 200px;
     }
     to {
-      margin-top: -200px;
+      margin-top: 0px;
     }
-  }
+  } */
+
+#wel-enter{
+    display: none;
+}
