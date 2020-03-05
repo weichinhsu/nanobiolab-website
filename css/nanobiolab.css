@@ -1,5 +1,5 @@
 .content {
-    padding-top: 54px;
+    position: absolute;
 }
 
 @media (min-width: 992px) {
@@ -31,6 +31,7 @@ section.resume-section {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
     max-width: 75rem;
+    background-color: white;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
@@ -419,9 +420,26 @@ hr.objective_divider {
     font-size: 8vw;
     /* font-weight: 300; */
     line-height: 8vw;
-    animation: movein 2s;
+    /* animation: movein 2s; */
     /* animation-delay:1s */
+    background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite, movein 2s;
+    -webkit-background-clip: text;
+    overflow: hidden;
+    -webkit-text-fill-color: rgba(26, 26, 26, 0.6);
 }
+
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
 
 @media (min-width: 992px) {
     .wel-title {
@@ -559,15 +577,32 @@ hr.objective_divider {
     100% {opacity:0;}
   }
 
-/* @keyframes movetop {
-    from {
-      margin-top: 200px;
-    }
-    to {
-      margin-top: 0px;
-    }
-  } */
-
 #wel-enter{
     display: none;
+}
+
+#side-bg {
+    background: linear-gradient(to bottom, rgba(125, 2, 2, 0.8) 0, rgba(140, 1, 1, 0.8) 100%), url(../img/marble4.jpg);
+    background-size: 100% 100%;
+    animation-duration: 240s;
+    animation-iteration-count: infinite;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+  
+  @keyframes rotate {
+    from { transform: rotate(  0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+#side-bg-container {
+    position: fixed;
+    margin-left: -30vw;
+    margin-top: -30vw;
+    width: 200vw;
+    height: 200vw;
 }
