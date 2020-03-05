@@ -8,12 +8,12 @@ import data from '../data/news'
 class News extends Component {
     renderImage = (image, id) => {
         return <div>
-            <ol class="carousel-indicators">
+            <ol className="carousel-indicators">
                 {image.map((ref, index) => <li data-target={"#carousel-" + id} data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)}
             </ol>
-            <div class="carousel-inner">
-                {image.map((ref, index) => <div class={"carousel-item " + (index === 0 ? "active" : "")}>
-                    <img src={process.env.PUBLIC_URL + "/img/news/" + ref} class="d-block w-100" alt="..." />
+            <div className="carousel-inner">
+                {image.map((ref, index) => <div className={"carousel-item " + (index === 0 ? "active" : "")}>
+                    <img src={process.env.PUBLIC_URL + "/img/news/" + ref} className="d-block w-100" alt="..." />
                 </div>
                 )}
             </div>
@@ -33,15 +33,15 @@ class News extends Component {
                         {
                             row.image ? <div className="row justify-content-center" >
                                 <div className="col-8">
-                                    <div id={"carousel-" + row.id} class="carousel slide" data-ride="carousel">
+                                    <div id={"carousel-" + row.id} className="carousel slide" data-ride="carousel">
                                         {this.renderImage(row.image, row.id)}
-                                        <a class="carousel-control-prev" href={"#carousel-" + row.id}  role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
+                                        <a className="carousel-control-prev" href={"#carousel-" + row.id}  role="button" data-slide="prev">
+                                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span className="sr-only">Previous</span>
                                         </a>
-                                        <a class="carousel-control-next" href={"#carousel-" + row.id}  role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
+                                        <a className="carousel-control-next" href={"#carousel-" + row.id}  role="button" data-slide="next">
+                                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span className="sr-only">Next</span>
                                         </a>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ class News extends Component {
     }
     render() {
         const { t, i18n } = this.props;
-        return (<div className="content">
+        return (<div className="content"  data-spy="scroll">
             <header className="masthead" id="home" >
                 <div className="container" >
                     <div className="intro-text" >

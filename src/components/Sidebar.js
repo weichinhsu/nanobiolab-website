@@ -12,14 +12,14 @@ class Sidebar extends Component {
     }
 
     changeLang = (lang) => {
-        this.setState({lang})
+        this.setState({ lang })
     }
 
     render() {
         const { menu, t, i18n } = this.props
         const { lang } = this.state
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <nav className="navbar navbar-expand-lg navbar-dark" id="sideNav">
                 <a className="navbar-brand js-scroll-trigger" >
                     <span className="d-block d-lg-none">NanoBioLab</span>
                     <span className="d-none d-lg-block">

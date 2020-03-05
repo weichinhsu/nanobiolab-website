@@ -8,6 +8,16 @@ body {
   font-family: 'Microsoft JhengHei' ;
   /* padding-top: 54px; */
   color: #797979;
+  /* overflow: hidden; */
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 @media (min-width: 992px) {
@@ -81,6 +91,10 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #902525;
+}
+
+#sideNav {
+  z-index: 1030;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
