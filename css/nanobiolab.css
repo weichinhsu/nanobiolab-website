@@ -227,6 +227,13 @@ header.masthead .intro-text .intro-heading {
     color: white;
     font-size: 1.15rem;
     font-weight: 500;
+    background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    overflow: hidden;
+    -webkit-text-fill-color: rgba(26, 26, 26, 0.6);
 }
 
 .highlight-section {
@@ -404,7 +411,6 @@ hr.objective_divider {
     align-items:center;
     justify-content:center;
     white-space:nowrap;
-    /* background-size: calc(100% + 20px); */
     animation: fadein 2s;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -418,10 +424,7 @@ hr.objective_divider {
 
 .wel-title {
     font-size: 8vw;
-    /* font-weight: 300; */
     line-height: 8vw;
-    /* animation: movein 2s; */
-    /* animation-delay:1s */
     background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
     background-repeat: no-repeat;
     background-size: 80%;
@@ -510,15 +513,10 @@ hr.objective_divider {
     background-position: center;
     height: 20vw;
     width: 20vw;
-    /* margin-top: 200px; */
-    /* max-width: 20vw; */
     animation: movetop 3s;
-    /* transform: translateX(300px); */
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    /* animation-timing-function: ease-out; */
-
     opacity:0;
 }
 
@@ -526,7 +524,6 @@ hr.objective_divider {
     #nthu {
         height: 12vw;
         width: 12vw;
-        /* max-width: 12vw; */
     }
 }
 
@@ -544,9 +541,6 @@ hr.objective_divider {
     height: 0px;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
-    /* animation-delay: 5s; */
-    /* animation: fadein 1s; */
-    /* display: none; */
 }
 
 #nthu-title-span {
@@ -582,7 +576,7 @@ hr.objective_divider {
 }
 
 #side-bg {
-    background: linear-gradient(to bottom, rgba(125, 2, 2, 0.8) 0, rgba(140, 1, 1, 0.8) 100%), url(../img/marble4.jpg);
+    background: linear-gradient(to bottom, rgba(125, 2, 2, 0.8) 0, rgba(140, 1, 1, 0.8) 100%), url(../img/marble.jpg);
     background-size: 100% 100%;
     animation-duration: 240s;
     animation-iteration-count: infinite;
