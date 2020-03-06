@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 import { connect } from 'dva';
 import { Link } from "react-router-dom";
 import { withTranslation } from 'react-i18next'
-import data from '../data/research'
 
 class Welcome extends Component {
+    state = {
+        show: false
+    }
+    componentDidMount() {
+        this.setState({ show: true })
+    }
     render() {
         const { t, i18n } = this.props;
         return (
             <div className="welcome">
-                <div>
+                {this.state.show ? <div>
                     <div id="wel-show">
                         <div className="nthu-div">
                             <div id="nthu"></div>
@@ -23,7 +28,7 @@ class Welcome extends Component {
                             <Link className="wel-btn" to='/news'>Enter Website <i className="fa fa-angle-double-right wel-icon"></i></Link>
                         </div>
                     </div>
-                </div>
+                </div> : null}
             </div>
         );
     }
