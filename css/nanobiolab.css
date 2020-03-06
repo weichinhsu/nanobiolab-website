@@ -1,5 +1,6 @@
 .content {
     position: absolute;
+    width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -394,6 +395,10 @@ hr.objective_divider {
 
 .activity-card-btn:hover{
     color: #902525;
+}
+
+#wel-show{
+    display: none;
 }
 
 .welcome {
