@@ -177,7 +177,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 10vw;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
@@ -200,7 +200,7 @@ header.masthead .intro-text .intro-heading {
         animation: fadein 2s;
     }
     header.masthead .intro-text .intro-lead-in {
-        font-size: 35px;
+        font-size: 7vw
         font-weight: 300;
         font-style: italic;
         line-height: 40px;
@@ -602,6 +602,13 @@ hr.objective_divider {
     position: fixed;
     margin-left: -30vw;
     margin-top: -30vw;
-    width: 200vw;
-    height: 200vw;
+    width: 250vw;
+    height: 250vw;
+}
+
+@media (min-width:768px) {
+    #side-bg-container {
+        width: 200vw;
+        height: 200vw;
+    }
 }
