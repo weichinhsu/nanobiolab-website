@@ -2,7 +2,7 @@ $(document).ready(function () {
     var nthu = document.getElementById('nthu');
     var nthu_show = document.getElementById('wel-show');
     var nthu_enter = document.getElementById('wel-enter');
-    $('<img/>').attr('src', 'img/welcome.jpg').on('load', function () {
+    $('<img/>').attr('src', 'img/marble.jpg').on('load', function () {
         $(this).remove(); // prevent memory leaks as @benweet suggested
         nthu_show.style["display"] = 'block'
     });
