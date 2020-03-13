@@ -11,16 +11,6 @@ export default [{
         "patent": [],
         "cv": ""
     }, {
-        "name": "侯憲三",
-        "title": "國防醫學院生科博士、中研院博士後研究",
-        "period": "2020年 01月 ~",
-        "research": "",
-        "plan": ["108-110 年度教育部補助大學產業創新研發計畫 (以spin-in or spin-off 為目標)"],
-        "publication": [],
-        "honor": [],
-        "patent": [],
-        "cv": ""
-    }, {
         "name": "王生勤",
         "title": "",
         "period": "2012年 3月 ~ 2013年 4月",
@@ -131,16 +121,6 @@ export default [{
             "name": "尤敬堯",
             "title": "動機系生醫組",
             "period": "第十三屆",
-            "research": "研究主題探討中",
-            "plan": [],
-            "publication": [],
-            "honor": [],
-            "patent": [],
-            "cv": ""
-        }, {
-            "name": "許恩齊",
-            "title": "動機系光機電組",
-            "period": "共同指導",
             "research": "研究主題探討中",
             "plan": [],
             "publication": [],
