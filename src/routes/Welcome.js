@@ -10,7 +10,6 @@ class Welcome extends Component {
     }
     componentDidMount() {
         this.setState({ show: true })
-        // this.history.push()
         setTimeout(()=>{
             this.props.history.push('news')
         }, 5000)
