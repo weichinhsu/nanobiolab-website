@@ -3,7 +3,7 @@ import { connect } from 'dva';
 import SubHeader from '../components/SubHeader'
 import ProfessorConetent from '../components/ProfessorConetent'
 import { withTranslation } from 'react-i18next'
-import Patant from '../components/Patant'
+import Patent from '../components/Patent'
 import data from '../data/publication'
 
 class Publication extends Component {
@@ -29,7 +29,7 @@ class Publication extends Component {
             case 'publication-symposium':
                 return <ProfessorConetent data={pro} />
             case 'publication-patent':
-                return <Patant data={pro} />
+                return <Patent data={pro} />
         }
     }
     render() {

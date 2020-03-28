@@ -177,7 +177,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-    font-size: 10vw;
+    font-size: 7vw;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
@@ -200,7 +200,7 @@ header.masthead .intro-text .intro-heading {
         animation: fadein 2s;
     }
     header.masthead .intro-text .intro-lead-in {
-        font-size: 7vw
+        font-size: 2.5vw;
         font-weight: 300;
         font-style: italic;
         line-height: 40px;
@@ -208,7 +208,7 @@ header.masthead .intro-text .intro-heading {
         font-family: 'Microsoft JhengHei';
     }
     header.masthead .intro-text .intro-heading {
-        font-size: 75px;
+        font-size: 5vw;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
@@ -428,8 +428,8 @@ hr.objective_divider {
 }
 
 .wel-title {
-    font-size: 8vw;
-    line-height: 8vw;
+    font-size: 6vw;
+    line-height: 6vw;
     background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
     background-repeat: no-repeat;
     background-size: 80%;
@@ -468,7 +468,7 @@ hr.objective_divider {
   }
 
 .wel-btn {
-    font-size: 2rem;
+    font-size: 2vw;
     padding: .5rem 1rem;
     /* opacity: .5; */
     background-color: rgb(41, 41, 41);
@@ -505,6 +505,15 @@ hr.objective_divider {
         transform: translateX(6px);
     }
   }
+
+#intro {
+    background-image: url("../img/intro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 30vw;
+    margin-top: 1vw;
+}
 
 .nthu-div {
     display: flex;
@@ -576,16 +585,16 @@ hr.objective_divider {
     100% {opacity:0;}
   }
 
-#wel-enter{
+/* #wel-enter{
     display: none;
-}
+} */
 
 #side-bg {
-    background: linear-gradient(to bottom, rgba(125, 2, 2, 0.8) 0, rgba(140, 1, 1, 0.8) 100%), url(../img/marble.jpg);
+    background: linear-gradient(to bottom, rgba(181, 38, 44) 0, rgba(181, 38, 44) 100%), url(../img/marble.jpg);
     background-size: 100% 100%;
     animation-duration: 240s;
     animation-iteration-count: infinite;
-    animation-name: rotate;
+    /* animation-name: rotate; */
     animation-timing-function: linear;
     height: 100%;
     width: 100%;
@@ -600,15 +609,17 @@ hr.objective_divider {
 
 #side-bg-container {
     position: fixed;
-    margin-left: -30vw;
-    margin-top: -30vw;
-    width: 250vw;
-    height: 250vw;
+    /* margin-left: -30vw;
+    margin-top: -30vw; */
+    /* width: 250vw; */
+    /* height: 250vw; */
+    width: 100%;
+    height: 100%;
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
     #side-bg-container {
         width: 200vw;
         height: 200vw;
     }
-}
+} */

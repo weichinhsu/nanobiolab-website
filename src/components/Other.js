@@ -19,7 +19,7 @@ class Other extends Component {
         const { data } = this.props;
         return (
             <div>
-                {data.map(patant => this.renderOther(patant))}
+                {data.map(patent => this.renderOther(patent))}
             </div>
         );
     }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { withTranslation } from 'react-i18next'
 
-class Patant extends Component {
+class Patent extends Component {
     renderRow = (row) => {
         return <div className="member-item resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-                <p>{row.author}, {row.title}, {row.period}</p>
+                <p>{row.author}, {row.title}, {this.props.t('patent-date')}: {row.period}, {this.props.t('patent-no')} {row.id}</p>
             </div>
         </div>
     }
@@ -20,7 +20,7 @@ class Patant extends Component {
     //         </div>
     //     </div>
     // }
-    renderPatant = (pat) => {
+    renderPatent = (pat) => {
         return <div>
             <h4 className="mb-3">{this.props.t(pat.name)}</h4>
             {pat.data.map(row => this.renderRow(row))}
@@ -30,10 +30,10 @@ class Patant extends Component {
         const { data } = this.props;
         return (
             <div>
-                {data.map(patant => this.renderPatant(patant))}
+                {data.map(patent => this.renderPatent(patent))}
             </div>
         );
     }
 }
 
-export default withTranslation("translation")(Patant)
+export default withTranslation("translation")(Patent)
