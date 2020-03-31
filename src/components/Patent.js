@@ -5,7 +5,7 @@ class Patent extends Component {
     renderRow = (row) => {
         return <div className="member-item resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-                <p>{row.author}, {row.title}, {this.props.t('patent-date')}: {row.period}, {this.props.t('patent-no')} {row.id}</p>
+                <p>{row.author}, {row.title}, {row.period}, {row.id}</p>
             </div>
         </div>
     }

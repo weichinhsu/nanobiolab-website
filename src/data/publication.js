@@ -291,12 +291,7 @@ export default [{
         "author": "Sheng-Chin Su and Chien-Chong Hong",
         "period": "2010",
         "institution": "ICAM 2010, Kingtin, Taiwan",
-    }, {
-        "title": "",
-        "author": "",
-        "period": "",
-        "institution": "",
-    },]
+    }, ]
 }, {
     "subject": "publication-patent",
     "group": [{
@@ -304,102 +299,107 @@ export default [{
         "data": [{
             "title": "生物感測器",
             "author": "洪健中、吳政穎",
-            "period": "2019/01/18",
-            "id": "108101955",
+            "period": "申請日: 2019/01/18",
+            "id": "申請編號: 108101955",
         }, {
             "title": "過濾輔助微流道晶片模組，及過濾輔助微流道晶片的製作方法",
             "author": "洪健中、劉通敏、王政麟",
-            "period": "2017/08/15",
-            "id": "106127619 (已核准)",
+            "period": "申請日: 2017/08/15",
+            "id": "申請編號: 106127619(已核准)",
         }, {
             "title": "聲波微收發傳感器之訊號精準度的提升方法",
             "author": "洪健中, 陳冠霖",
-            "period": "2018年08月01日至2037年05月10日",
+            "period": "專利權 2018年08月01日至2037年05月10日",
             "id": "發明第I 631819",
         }, {
             "title": "電極薄膜及其製造方法",
             "author": "劉通敏, 洪健中, 陳彥任",
-            "period": "2018年01月11日至2037年03月06日",
+            "period": "專利權 2018年01月11日至2037年03月06日",
             "id": "發明第I 610882",
         }, {
             "title": "二硫化鉬奈米片感測器及其製造方法",
             "author": "洪健中, 吳忠軒, 王世邦",
-            "period": "2015/12/31",
-            "id": "104144708",
+            "period": "申請日: 2015/12/31",
+            "id": "申請編號: 104144708",
         }, {
             "title": "壓電換能器之製造方法",
             "author": "洪健中, 李佳翃",
-            "period": "2017年2月21日至2034年12月15日",
-            "id": "發明第I 572262",
+            "period": "專利權 2016年11月11日至2035年12月14日",
+            "id": "發明第I 557163",
         }, {
+            "title": "壓電換能器之製造方法",
+            "author": "洪健中, 陳冠文",
+            "period": "專利權 2017年2月21日至2034年12月15日",
+            "id": "發明第I 572262",
+        },{
             "title": "感測吹管及其製作方法、及呼氣檢測系統及其使用方法",
             "author": "洪健中, 陳冠文, 王緯翰, 吳忠軒",
-            "period": "2016年9月21日至2034年12月07日",
+            "period": "專利權 2016年9月21日至2034年12月07日",
             "id": "發明第I 550267",
         }, {
             "title": "形成微流道結構的方法",
             "author": "洪健中, 游士弘, 鍾文",
-            "period": "2016年3月21日至2034年1月20日",
+            "period": "專利權 2016年3月21日至2034年1月20日",
             "id": "發明第I 526392",
         }, {
             "title": "提升壓電高分子電性輸出方法及壓電/導電混合高分子薄膜製程",
             "author": "洪健中, 劉通敏, 林楷倫",
-            "period": "2016年4月11日至2033年12月26日",
+            "period": "專利權 2016年4月11日至2033年12月26日",
             "id": "發明第I 529985",
         }, {
             "title": "奈米材料混成電極及其製作方法",
             "author": "洪健中, 林子翔, 黃國柱",
-            "period": "2015年1月1日至2032年12月23日",
+            "period": "專利權 2015年1月1日至2032年12月23日",
             "id": "發明第I 467168",
         }, {
             "title": "具有複合式奈米結構的壓電薄膜及具有其的觸控感測裝置",
             "author": "洪健中, 陳哲智, 劉通敏",
-            "period": "2015年5月11日至2032年12月19日",
+            "period": "專利權 2015年5月11日至2032年12月19日",
             "id": "發明第I 484675",
         }, {
             "title": "形成連續性三維結構的噴墨方法",
             "author": "劉通敏, 洪健中, 陸國鑫",
-            "period": "2015年5月11日至2032年10月25日",
+            "period": "專利權 2015年5月11日至2032年10月25日",
             "id": "發明第I 484301",
         }, {
             "title": "具固定相位之C-反應蛋白所拓印之薄膜及其應用於感測晶片系統",
             "author": "洪健中, 陳思穎, 洪嘉呈, 陳治平",
-            "period": "2014年9月1日至2031年12月15日",
+            "period": "專利權 2014年9月1日至2031年12月15日",
             "id": "發明第I 450961",
         }, {
             "title": "利用奈米壓印技術在聚合物壓電性材料上形成高深寬比的奈米柱的方法",
             "author": "洪健中, 黃聖淵",
-            "period": "2015年1月1日至2031年4月26日",
+            "period": "專利權 2015年1月1日至2031年4月26日",
             "id": "發明第I 466819",
         }, {
             "title": "微流體裝置",
             "author": "洪健中, 蔡承翰",
-            "period": "2014年06月01日至2031年3月23日",
+            "period": "專利權 2014年06月01日至2031年3月23日",
             "id": "發明第I 440171",
         }, {
             "title": "測量溶液中之微量待測物濃度的方法及麻醉劑感測晶片",
             "author": "洪健中, 鍾孟樺, 林志中",
-            "period": "2013年12月11日至2031年3月14日",
+            "period": "專利權 2013年12月11日至2031年3月14日",
             "id": "發明第I 418783",
         }, {
             "title": "智慧型可變型態高分子微流體動力裝置及其製作方法",
             "author": "洪健中, 陳睿鈞",
-            "period": "2016年6月11日至2030年4月7日",
+            "period": "專利權 2016年6月11日至2030年4月7日",
             "id": "發明第I 537314",
         }, {
             "title": "於一塑膠基材上形成一分子拓印高分子薄膜之方法",
             "author": "洪健中, 張柏翔, 林志中",
-            "period": "2014年2月21日至2030年5月18日",
+            "period": "專利權 2014年2月21日至2030年5月18日",
             "id": "發明第I 427111",
         }, {
             "title": "微結構的製作方法",
             "author": "洪健中, 黃彬, 謝健",
-            "period": "2013年5月21日至2030年2月10日",
+            "period": "專利權 2013年5月21日至2030年2月10日",
             "id": "發明第I 396659",
         }, {
             "title": "製造具有超斥水性及高透光性之塑膠表面的方法",
             "author": "洪健中, 黃彬, 謝健",
-            "period": "2013年2月21日至2029年8月19日",
+            "period": "專利權 2013年2月21日至2029年8月19日",
             "id": "發明第I 386297",
         }]
     }, {
@@ -407,100 +407,100 @@ export default [{
         "data": [{
             "title": "BIOSENSOR",
             "author": "Chien-Chong Hong, Jheng-Ying Wu",
-            "period": "2019/03/29",
-            "id": "16/370133",
+            "period": "application date: 2019/03/29",
+            "id": "no. 16/370133",
         }, {
             "title": "MICROFLUIDIC DEVICE AND METHOD OF MAKING THE SAME",
             "author": "Chien-Chong Hong, Tong-Miin Liou, Zheng-Lin Wang",
-            "period": "2018",
-            "id": "15/982508",
+            "period": "application date: 2018",
+            "id": "no. 15/982508",
         }, {
             "title": "METHOD FOR DETERMINING A THRESHOLD VOLTAGE FOR OBTAINING A BATCH OF SENSING CHIPS WITH INCREASED SENSITIVITY AND METHOD FOR INCREASING SENSITIVITY OF THE BATCH OF SENSING CHIPS",
             "author": "Chien-Chong Hong, Guan-Lin Chen",
-            "period": "2017/11/08",
-            "id": "15/806861",
+            "period": "application date: 2017/11/08",
+            "id": "no. 15/806861",
         }, {
             "title": "ELECTRODE THIN FILM AND METHOD FOR MANUFACTURING THE SAME",
             "author": "Tong-Miin Liou, Chien-Chong Hong, Yan-Ren Chen",
-            "period": "2017/10/15",
-            "id": "15/784,182",
+            "period": "application date: 2017/10/15",
+            "id": "no. 15/784,182",
         }, {
             "title": "MICROFLUIDIC STRUCTURES FABRICATING METHOD",
             "author": "Chien-Chong Hong, Shih-Hong You, Wen Chung",
-            "period": "2017/04/30",
-            "id": "15/582750",
+            "period": "application date: 2017/04/30",
+            "id": "no. 15/582750",
         }, {
             "title": "MOLYBDENUM DISULFIDE SENSOR AND METHOD FOR FABRICATING THE SAME",
             "author": "Chien-Chong Hong, Shih-Pang Wang, and Chung-Hsuan Wu",
-            "period": "2018/12/25 (2016/05/06 ~ 2036/11/29)",
-            "id": "US10,161,922",
+            "period": "patent date: 2018/12/25 (2016/05/06 ~ 2036/11/29)",
+            "id": "no. US10,161,922",
         }, {
             "title": "MICROFLUIDIC DEVICE",
             "author": "Chien-Chong Hong, Chia-Hung Lee",
-            "period": "2016/03/14",
-            "id": "15/069153",
+            "period": "application date: 2016/03/14",
+            "id": "no. 15/069153",
         }, {
             "title": "METHOD OF MAKING A BREATH SENSING TUBE",
             "author": "Chien-Chong Hong, Kuan-Wen Chen, Wei-Han Wang, Chung-Hsuan Wu",
-            "period": "2018/02/13",
-            "id": "US9890468B2",
+            "period": "patent date: 2018/02/13",
+            "id": "no. US9890468B2",
         }, {
             "title": "METHOD FOR FABRICATING MICROFLUIDIC STRUCTURES",
             "author": "Chien-Chong Hong, Shih-Hong You, Wen Chung",
-            "period": "2017/06/20",
-            "id": "US9682374B2",
+            "period": "patent date: 2017/06/20",
+            "id": "no. US9682374B2",
         }, {
             "title": "ELECTRIC OUTPUT PROMOTING AND FABRICATING METHOD OF PIEZOELECTRIC/CONDUCTIVE HYBRID POLYMER THIN FILM",
             "author": "Chien-Chong Hong, Kai-Lun Lin, Tong-Miin Liou",
-            "period": "2014/04/30",
-            "id": "14/265384 (已核准)",
+            "period": "application date: 2014/04/30",
+            "id": "no. 14/265384 (已核准)",
         }, {
             "title": "HYBRID NANOMATERIAL ELECTRODE AND FABRICATION METHOD THEREOF",
             "author": "Chien-Chong Hong, Zi-Xiang Lin, Kuo Chu Hwang",
-            "period": "2015/11/03",
-            "id": "US9175415B2",
+            "period": "patent date: 2015/11/03",
+            "id": "no. US9175415B2",
         }, {
             "title": "PIEZOELECTRIC DEVICE",
             "author": "Chien-Chong Hong, Alan Chen, Tong-Miin Liou",
-            "period": "2016/04/26",
-            "id": "US9324932B2",
+            "period": "patent date: 2016/04/26",
+            "id": "no. US9324932B2",
         }, {
             "title": "INKJET PRINTING METHOD FOR FORMING A CONTINUOUS THREE-DIMENSIONAL STRUCTURE",
             "author": "Tong-Miin Liou, Chien-Chong Hong, Guo-Shin Lu",
-            "period": "2015/12/15",
-            "id": "US9211677B2",
+            "period": "patent date: 2015/12/15",
+            "id": "no. US9211677B2",
         }, {
             "title": "C-REACTIVE PROTEIN IMPRINTED POLYMER FILM AND MICROCHIP SYSTEM UTILIZING THE SAME",
             "author": "Chien-Chong Hong, Szu-Ying Chen, Chie-Pein Chen, Jia-Cherng Horng",
-            "period": "2015/07/07",
-            "id": "US 9075054B2",
+            "period": "patent date: 2015/07/07",
+            "id": "no. US 9075054B2",
         }, {
             "title": "MICROFLUIDIC DEVICE WITH FLUID DRIVING CAPABILITY",
             "author": "Chien-Chong Hong, C.-H. Tsai",
-            "period": "2014/02/18",
-            "id": "US 8651451B2",
+            "period": "patent date: 2014/02/18",
+            "id": "no. US 8651451B2",
         }, {
             "title": "METHOD OF NANOIMPRINTING A PIEZOELECTRIC POLYMERIC MATERIAL FOR FORMING HIGH ASPECT RATIO NANOPILLARS",
             "author": "Chien-Chong Hong, S.-U. Huang",
-            "period": "2014/01/21",
-            "id": "US 8632717B2",
+            "period": "patent date: 2014/01/21",
+            "id": "no. US 8632717B2",
         }, {
             "title": "BIOSENSOR AND METHOD FOR DETERMINING AN ANALYTE CONCENTRATION",
             "author": "Chien-Chong Hong, M.-H. Chung, C.-C. Lin",
-            "period": "2014/10/14",
-            "id": "US 8858780B2",
+            "period": "patent date: 2014/10/14",
+            "id": "no. US 8858780B2",
         }, {
             "title": "METHOD FOR FORMING A MOLECULARLY IMPRINTED POLYMER BIOSENSOR",
             "author": "Chien-Chong Hong, P.-H. Chang, C.-C. Lin",
-            "period": "2014/05/27",
-            "id": "US 8734890 B2",
+            "period": "patent date: 2014/05/27",
+            "id": "no. US 8734890 B2",
         }, ]
     }, {
         "name": "patent-eu",
         "data": [{
             "title": "MICROFLUIDIC CHIP DEVICE AND METHOD OF MAKING THE SAME",
             "author": "Chien-Chong Hong and J.-C. Chen",
-            "period": "2019/03/27",
+            "period": "patent date: 2019/03/27",
             "id": "no. EP 2375071 B1",
         }, ]
     }, {
@@ -508,7 +508,7 @@ export default [{
         "data": [{
             "title": "MICROFLUIDIC CHIP DEVICE AND METHOD OF MAKING THE SAME",
             "author": "Chien-Chong Hong and J.-C. Chen",
-            "period": "2010/08/25 ~ 2030/08/25",
+            "period": "patent period: 2010/08/25 ~ 2030/08/25",
             "id": "5379766",
         }, ]
     }, {
@@ -516,7 +516,7 @@ export default [{
         "data": [{
             "title": "測量溶液中之微量待測物濃度的方法及麻醉劑感測晶片",
             "author": "洪健中, 鍾孟樺, 林志中",
-            "period": "2011年4月15日至2031年4月14日",
+            "period": "授權公告日2015年2月4日, 專利權 2011年4月15日至2031年4月14日",
             "id": "ZL 201110097271.X",
         }, ]
     }]

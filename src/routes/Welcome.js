@@ -12,7 +12,7 @@ class Welcome extends Component {
         this.setState({ show: true })
         setTimeout(()=>{
             this.props.history.push('news')
-        }, 5000)
+        }, 20000)
     }
     render() {
         const { t, i18n } = this.props;
