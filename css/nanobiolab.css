@@ -590,7 +590,7 @@ hr.objective_divider {
 }
 
 #side-bg {
-    background: linear-gradient(to bottom, rgba(181, 38, 44) 0, rgba(181, 38, 44) 100%), url(../img/marble.jpg);
+    background: linear-gradient(to bottom, rgba(181, 38, 44, 0.8) 0, rgba(181, 38, 44, 0.8) 100%), url(../img/marble.jpg);
     background-size: 100% 100%;
     animation-duration: 240s;
     animation-iteration-count: infinite;
