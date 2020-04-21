@@ -8,9 +8,13 @@ import { withTranslation } from 'react-i18next'
 class Sidebar extends Component {
     state = {
         key: null,
-        lang: 'en'
+        lang: 'en',
+        isIE: false
     }
-
+    componentDidMount() {
+        const isIE = navigator.userAgent.search("MSIE") > -1;
+        this.setState({ isIE })
+    }
     changeLang = (lang) => {
         this.setState({ lang })
     }
@@ -24,7 +28,7 @@ class Sidebar extends Component {
                     <span className="d-block d-lg-none">NanoBioLab</span>
                     <span className="d-none d-lg-block">
                         <img className="img-fluid img-profile mx-auto mb-3" src={nthu} alt="" />
-                        <p className="sidebar-p">{t('sidebar-name')}<br />{t('sidebar-name2')}</p>
+                        <p className={`sidebar-p ${this.state.isIE ? '' : 'sidebar-p-animation'}`}>{t('sidebar-name')}<br />{t('sidebar-name2')}</p>
                         <p className="sidebar-p"></p>
                     </span>
                 </a>
