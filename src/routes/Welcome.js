@@ -10,8 +10,10 @@ class Welcome extends Component {
         isIE: false
     }
     componentDidMount() {
-        const isIE = navigator.userAgent.search("MSIE") > -1;
-        console.log(navigator.userAgent)
+        // const isIE = navigator.userAgent.search("MSIE") > -1;
+        var isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+        console.log(document.documentMode)
 
         this.setState({ show: true })
         let time = setTimeout(() => {
