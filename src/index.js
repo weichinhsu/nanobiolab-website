@@ -1,3 +1,5 @@
+import 'react-app-polyfill/ie9'
+import 'react-app-polyfill/stable'
 import dva from 'dva';
 import { createBrowserHistory as createHistory } from 'history';
 import './translation'
