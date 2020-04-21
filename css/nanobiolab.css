@@ -231,6 +231,9 @@ header.masthead .intro-text .intro-heading {
     background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
     background-repeat: no-repeat;
     background-size: 80%;
+}
+
+.sidebar-p-animation {
     animation: animate 3s linear infinite;
     -webkit-background-clip: text;
     overflow: hidden;
@@ -433,6 +436,9 @@ hr.objective_divider {
     background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
     background-repeat: no-repeat;
     background-size: 80%;
+}
+
+.wel-title-animation {
     animation: animate 3s linear infinite, movein 2s;
     -webkit-background-clip: text;
     overflow: hidden;
