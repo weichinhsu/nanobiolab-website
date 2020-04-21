@@ -3,7 +3,6 @@ import { withTranslation } from 'react-i18next'
 
 class SubHeader extends Component {
     renderHeader = (subject) => {
-        console.log(subject)
         return <li className={this.props.isActive == subject ? 'item-active' : 'item-inactive'}
             onClick={() => this.props.onSubHeaderClick(subject)}>
             <a className="sub-title">{this.props.t(subject)}</a>

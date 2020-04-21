@@ -10,9 +10,14 @@ class Welcome extends Component {
     }
     componentDidMount() {
         this.setState({ show: true })
-        setTimeout(()=>{
+        let time = setTimeout(()=>{
             this.props.history.push('news')
         }, 20000)
+        this.setState({time})
+    }
+    componentWillUnmount(){
+        clearTimeout(this.state.time)
+        console.log('leave')
     }
     render() {
         const { t, i18n } = this.props;

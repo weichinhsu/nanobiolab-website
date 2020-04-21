@@ -31,16 +31,12 @@ class ActivityDetail extends Component {
             {this.renderModal(image, index)}
         </div>
     }
-    componentDidMount() {
-        const { location, history } = this.props;
 
-    }
     render() {
         const { t, i18n, location, history } = this.props;
         if (location.state === undefined) {
             return <Redirect to="/activity" push />
         }
-        console.log(location.state)
         return (<div className="content">
             <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="education">
                 <div className="w-100">
