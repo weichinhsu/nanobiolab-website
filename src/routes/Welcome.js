@@ -11,6 +11,8 @@ class Welcome extends Component {
     }
     componentDidMount() {
         const isIE = navigator.userAgent.search("MSIE") > -1;
+        console.log(navigator.userAgent)
+
         this.setState({ show: true })
         let time = setTimeout(() => {
             this.props.history.push('news')

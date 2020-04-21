@@ -13,6 +13,7 @@ class Sidebar extends Component {
     }
     componentDidMount() {
         const isIE = navigator.userAgent.search("MSIE") > -1;
+        console.log(navigator.userAgent)
         this.setState({ isIE })
     }
     changeLang = (lang) => {
