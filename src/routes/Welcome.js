@@ -23,7 +23,7 @@ class Welcome extends Component {
         clearTimeout(this.state.time)
     }
     render() {
-        const { t, i18n } = this.props;
+        const { t } = this.props;
         return (
             <div className="welcome">
                 {this.state.show ? <div>

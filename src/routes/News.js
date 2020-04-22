@@ -83,7 +83,7 @@ class News extends Component {
         </div>
     }
     render() {
-        const { t, i18n } = this.props;
+        const { t } = this.props;
         return (<div className="content"  data-spy="scroll">
             <header className="masthead" id="home" >
                 <div className="container" >

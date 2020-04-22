@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import nthu from '../assets/images/logo.png'
 import { Link } from "react-router-dom";
 import { withTranslation } from 'react-i18next'
 
@@ -28,7 +27,6 @@ class Sidebar extends Component {
                 <a className="navbar-brand js-scroll-trigger" >
                     <span className="d-block d-lg-none">NanoBioLab</span>
                     <span className="d-none d-lg-block">
-                        {/* <img className="img-fluid img-profile mx-auto mb-3" src={nthu} alt="" /> */}
                         <div className="img-fluid img-profile mx-auto mb-3" id="logo"></div>
 
                         <p className={`sidebar-p ${this.state.isIE ? '' : 'sidebar-p-animation'}`}>{t('sidebar-name')}<br />{t('sidebar-name2')}</p>
