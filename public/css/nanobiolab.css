@@ -31,7 +31,7 @@ a:active {
 section.resume-section {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
-    max-width: 75rem;
+    /* max-width: 75rem; */
     background-color: white;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -51,7 +51,7 @@ section.resume-section .resume-item .resume-date {
 @media (min-width:768px) {
     section.resume-section {
         min-height: 100vh;
-        max-width: 75rem;
+        /* max-width: 75rem; */
         -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
@@ -71,7 +71,7 @@ section.resume-section .resume-item .resume-date {
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important;
-        max-width: 75rem;
+        /* max-width: 75rem; */
         -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
@@ -151,7 +151,7 @@ header.masthead {
     background-position: center center;
     background-size: cover;
     height: 500px;
-    max-width: 75rem;
+    /* max-width: 75rem; */
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
@@ -188,7 +188,7 @@ header.masthead .intro-text .intro-heading {
     header.masthead .intro-text {
         padding-top: 150px;
         padding-bottom: 100px;
-        max-width: 75rem;
+        /* max-width: 75rem; */
         -webkit-animation: fadein 2s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein 2s;
@@ -492,13 +492,8 @@ hr.objective_divider {
 }
 
 .wel-btn:hover .wel-icon {
-    /* -webkit-transition-duration: 0.1s;
-    transition-duration: 0.1s;
-    -webkit-transform: translateX(6px);
-    transform: translateX(6px); */
     animation: btn-icon 1s;
     animation-iteration-count:infinite;
-    /* transition-timing-function: ; */
 }
 
 @keyframes btn-icon {
@@ -615,17 +610,14 @@ hr.objective_divider {
 
 #side-bg-container {
     position: fixed;
-    /* margin-left: -30vw;
-    margin-top: -30vw; */
-    /* width: 250vw; */
-    /* height: 250vw; */
     width: 100%;
     height: 100%;
 }
 
-/* @media (min-width:768px) {
-    #side-bg-container {
-        width: 200vw;
-        height: 200vw;
-    }
-} */
+#logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 8vh;
+}

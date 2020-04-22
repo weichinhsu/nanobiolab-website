@@ -13,7 +13,6 @@ class Sidebar extends Component {
     }
     componentDidMount() {
         var isIE = /*@cc_on!@*/false || !!document.documentMode;
-
         console.log(document.documentMode)
         this.setState({ isIE })
     }
@@ -29,7 +28,9 @@ class Sidebar extends Component {
                 <a className="navbar-brand js-scroll-trigger" >
                     <span className="d-block d-lg-none">NanoBioLab</span>
                     <span className="d-none d-lg-block">
-                        <img className="img-fluid img-profile mx-auto mb-3" src={nthu} alt="" />
+                        {/* <img className="img-fluid img-profile mx-auto mb-3" src={nthu} alt="" /> */}
+                        <div className="img-fluid img-profile mx-auto mb-3" id="logo"></div>
+
                         <p className={`sidebar-p ${this.state.isIE ? '' : 'sidebar-p-animation'}`}>{t('sidebar-name')}<br />{t('sidebar-name2')}</p>
                         <p className="sidebar-p"></p>
                     </span>
