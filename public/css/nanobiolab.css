@@ -228,12 +228,12 @@ header.masthead .intro-text .intro-heading {
     color: white;
     font-size: 1.15rem;
     font-weight: 500;
-    background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
-    background-repeat: no-repeat;
-    background-size: 80%;
 }
 
 .sidebar-p-animation {
+    background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
     animation: animate 3s linear infinite;
     -webkit-background-clip: text;
     overflow: hidden;
@@ -433,12 +433,13 @@ hr.objective_divider {
 .wel-title {
     font-size: 6vw;
     line-height: 6vw;
-    background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
-    background-repeat: no-repeat;
-    background-size: 80%;
+    
 }
 
 .wel-title-animation {
+    background: linear-gradient(90deg, #fff,rgb(0, 0, 0), #fff);
+    background-repeat: no-repeat;
+    background-size: 80%;
     animation: animate 3s linear infinite, movein 2s;
     -webkit-background-clip: text;
     overflow: hidden;
